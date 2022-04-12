@@ -5,6 +5,7 @@ const Logo = () => {
     return (
         <View style={estilos.contenedor}>
             <Image source={require('../../Asset/Logo.png')} />
+            <Image style={estilos.Icons} source={require('../../Asset/next-button.png')} />
         </View>
     )
 }
@@ -15,13 +16,14 @@ const estilos = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        
-
+        backgroundColor: "#08007C",
     },
 
-    textoMensaje: {
-        fontSize: 40,
-        fontWeight: "bold"
+    Icons: {
+        width: 70,
+        marginTop: 50,
+        height: 70,
+        resizeMode: 'contain'
     }
 
 });
