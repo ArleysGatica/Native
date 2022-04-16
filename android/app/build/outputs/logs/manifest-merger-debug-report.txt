@@ -5,56 +5,72 @@ INJECTED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\mai
 INJECTED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:1:1-25:12
 INJECTED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:1:1-25:12
 MERGED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:1:1-25:12
-MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\085f8b4a0f41cc85a44e54de4c1c514d\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:8:1-18:12
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e62ba9cdfcbc65847217ffce271b75ae\transformed\jetified-flipper-network-plugin-0.99.0\AndroidManifest.xml:8:1-15:12
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\a85e37ddf85ad4783e2afc44e21b0206\transformed\jetified-flipper-fresco-plugin-0.99.0\AndroidManifest.xml:8:1-15:12
-MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\da4d185028f944b40dd785dbbb5a5733\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\cbded60deb9bdab86c8b4b61fe4b5086\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [org.webkit:android-jsc:r250230] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\c04ce6e776d8dae28f0976bd53101bc2\transformed\jetified-android-jsc-r250230\AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.fresco:flipper:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\7753faa033cfc2c24ed0148dee5899c6\transformed\jetified-flipper-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:stetho:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\f055a2dfaf9ba0b265fa49f2ef992fbf\transformed\jetified-stetho-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:fresco:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9e43482fc7d6d60761c640c12e3c3f56\transformed\jetified-fresco-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:soloader:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\872b7e545eb8337988af4d60efeef797\transformed\jetified-soloader-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\c881c6208b9620ceeb7bbdc2d513e79c\transformed\jetified-imagepipeline-okhttp3-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\a58c47efcfa102db051a0b1818e9a195\transformed\jetified-drawee-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\f67decb10952d992f93f2ddaf8ac576f\transformed\jetified-nativeimagefilters-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:memory-type-native:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\6a263090576d94bd2a4d4a67865317bb\transformed\jetified-memory-type-native-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:memory-type-java:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\6884e8daf2774cfabd25d23ed59ee7a2\transformed\jetified-memory-type-java-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\87e6292e8694f76a1f675b8acda56fa2\transformed\jetified-imagepipeline-native-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.10.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\c47c6b171669f52ef400520f705d3e4a\transformed\jetified-soloader-0.10.1\AndroidManifest.xml:2:1-13:12
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e3ba144da70f6fb98ffeca4a52ba04c8\transformed\jetified-memory-type-ashmem-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\8dfe17c740417118a265352aae95768c\transformed\jetified-imagepipeline-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ff1cb32f1b66b2cce2adc140daa8ffe3\transformed\jetified-nativeimagetranscoder-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\6b114a8939e3494460565cb087972b5e\transformed\jetified-imagepipeline-base-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\cc228208a118abab8e3626daa1d5d918\transformed\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\8d9fb6d52b61f21cd020267e56cb3bf1\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\19ca5d90883b24da74a14a9b853f4a18\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.facebook.fresco:middleware:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\bf0b33de5cd86d44118af10179f0c9bd\transformed\jetified-middleware-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:ui-common:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d477c8f58bb6888460bf759b661ee3d9\transformed\jetified-ui-common-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\82be496d9d05673b9d20d2a8b156c0c5\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e5eab7523fa294709cfed9955605f8ff\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b3b09621cca747e5e8d01c73cf2136e9\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\7ceff8a881cf225c8430b88db6f40e05\transformed\fragment-1.3.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.3] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2acf1a9c2ce85b4e72cfda4e71aad8e6\transformed\jetified-activity-1.2.3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ed1fb4f4c22b1099e078b01551fe3403\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\5aed98e1a7bd35d26e6b7e123a4f58e5\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\4cfa2ef3764f868c4ac286f96c605047\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\7f04697b6371bd88d7088940d0625bf3\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\28631a0b111c0273601954918fe48ec5\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b1fe9740f6c86f0b7649a763c3bf2b85\transformed\core-1.5.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\bd4596c4e03a42881733f45db8a548c5\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\92f068a14c1f79b46435838b31cf40af\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\86df5c814b5f9eca8e36b9cbe56610e1\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2e4822f9fc5814ff03c58080f4b69279\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\65298f10ce20363a24acca32d217749f\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\a00836f79cc9b0e5c3439e3127822781\transformed\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\47b8f488b2ddbb3907578da1290c6f45\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d0bb36838486cba0a66bfa2c226b0163\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\4814206f9931bb2b51fe2820b122a3b6\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\03d84f79ddc5d095549aff719b894525\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\43849a663b47b5e3a36a05a548a0e4d6\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.facebook.fresco:fbcore:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1baec9233d2cd6421cae3409a4e1f494\transformed\jetified-fbcore-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2e9fb0efe392e058045f5a12fe5867c7\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\03b46fa6c5873be122e390e2d792ed62\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\3c320c6e2240fc14613206d5fc478993\transformed\jetified-flipper-network-plugin-0.99.0\AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d2c715cc25ed0688e8bccc58e3c771dd\transformed\jetified-flipper-fresco-plugin-0.99.0\AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-firebase_firestore] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\firestore\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-27:12
+MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\39a1085d5d4af67a5f6b571470d10dbd\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\49ff1c78ea09a8c82fe2f4885d0de645\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [org.webkit:android-jsc:r250230] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\708adc184e060c859c5caf15c862a376\transformed\jetified-android-jsc-r250230\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9682b3254ed9860551a9b2a7c0588212\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta05] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\22cb1d2d3f6d0261b3945e41090acafd\transformed\jetified-firebase-appcheck-interop-16.0.0-beta05\AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1556dae953af05ca5355c800109ed3de\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:15:1-40:12
+MERGED from [com.facebook.fresco:flipper:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9b83268c1c7e7e4bf514f2cf45117505\transformed\jetified-flipper-2.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\11f09e0d5d82c6f1ba93e66a4c63f2ce\transformed\jetified-stetho-2.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\04faaa2049a08b9dad18701d59b70745\transformed\jetified-fresco-2.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\4b197f3438a2c4cb37529c1fefd82976\transformed\jetified-soloader-2.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2f813d2ace528b22e7ee93c2906639dd\transformed\jetified-imagepipeline-okhttp3-2.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\c2e408a1b2d782007c7d0fe6fa370405\transformed\jetified-drawee-2.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e712596d3be4569c805e8374247b3e08\transformed\jetified-nativeimagefilters-2.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e3e844f6b34fac24f7a29070fafb6c0c\transformed\jetified-memory-type-native-2.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\99e3b0a70ebe18a007b8d463a43f0aa7\transformed\jetified-memory-type-java-2.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\27106b043064556c0474a3b106eb8ea3\transformed\jetified-imagepipeline-native-2.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.10.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\262bdd818f9de026e191d0e128bf74a3\transformed\jetified-soloader-0.10.1\AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\30dbb0164433c8c544faead083c0abcc\transformed\jetified-memory-type-ashmem-2.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ad9bcb00e0fa8bd52c57550866a7d04e\transformed\jetified-imagepipeline-2.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d1218d11460093bab0d1f21c18626376\transformed\jetified-nativeimagetranscoder-2.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d197133b316a3edd94f029cbca01b428\transformed\jetified-imagepipeline-base-2.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\31fce8b6f6c76a487454f21b15f2e11f\transformed\jetified-grpc-android-1.44.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b15ea1db6bc191e16f8464486ade81bc\transformed\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\4c23104d12febf3c724ac864711e36ff\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e33a7f78a6ed75de939ae7cd957526e6\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:middleware:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ed38773d1e61d06b0bc0766a8069f6a0\transformed\jetified-middleware-2.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\82f08dfda96df7a861f664380540977e\transformed\jetified-ui-common-2.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9f8cf7a85fbb4781c12546005de6a308\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2392988e271ef77a77203696dd5136dc\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9977eb8b3bb409e5af237fcf6e8dc0d2\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\5664a80dad60fcdbddeb1aeb2be19897\transformed\jetified-play-services-auth-api-phone-18.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\a6a33d189622e1195a288dd1b394e239\transformed\jetified-play-services-auth-base-18.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9f00b0374bd065bd9db672c079c98a6d\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\894414ed02f4ee8d37eca76ac60f7d15\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2d9d895a504dbf0911548eed116efe5e\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1578e7949748085c4cec3e729ca7ef71\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\a12af10e25cee0b86eb0004fe09e214a\transformed\fragment-1.3.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ddef84576f483b307a7d2351a4f913cb\transformed\jetified-activity-1.2.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\0ba045090b62e9f73bb3de7889f26c8d\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\fb981241d2eb3a681f7867d7649c0886\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\02eeb76c7a3f3325e96069516063d930\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\791aea767b05a7c2249dd824adbb1c1b\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\415170619435589772d861c2ac30ff2a\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ba59935120705d42463607cd29c4ad0e\transformed\core-1.5.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9824b6417612aa80f363901316f29c34\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\bce3491c290817df64ad1bba4b65a3a2\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e002212956a4c00f98db9ff80e3ff16a\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\32d0cc503a456d1f5dd968aa08d06b8a\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\6bf49d26fb7f41744418b1caead608e2\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\0d6ffc9db6648e2113ba130bbaf98b92\transformed\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\fd4857e1b6db9ede305b833d677418c1\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\19b1530a59f8b131c3efd397c4bc2e88\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\c1c5d309b46d1936423ecefd56240c30\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\74e8d220ab1fec98f87abcc07123243e\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\17a33425a1226a2a14340fcd1656b1af\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\771d010818804dd9a48a9b799b566203\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fbcore:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2ff8447630728faa4aa787d38ff724e5\transformed\jetified-fbcore-2.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\91dedbcb28a80ef4a44b6aad015a26e0\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ce6b68f5c0831d8f59e79c624c1e9561\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 INJECTED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\debug\AndroidManifest.xml:2:1-13:12
 INJECTED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\debug\AndroidManifest.xml:2:1-13:12
 INJECTED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\debug\AndroidManifest.xml:2:1-13:12
@@ -77,24 +93,44 @@ INJECTED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\deb
 		ADDED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:4:5-67
-MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\085f8b4a0f41cc85a44e54de4c1c514d\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:15:5-67
-MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\085f8b4a0f41cc85a44e54de4c1c514d\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\03b46fa6c5873be122e390e2d792ed62\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\03b46fa6c5873be122e390e2d792ed62\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:15:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9682b3254ed9860551a9b2a7c0588212\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9682b3254ed9860551a9b2a7c0588212\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:14:5-67
 	android:name
 		ADDED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:4:22-64
 application
 ADDED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:6:5-24:19
 MERGED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:6:5-24:19
 MERGED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:6:5-24:19
-MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\da4d185028f944b40dd785dbbb5a5733\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:9:5-20
-MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\da4d185028f944b40dd785dbbb5a5733\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:9:5-20
-MERGED from [com.facebook.soloader:soloader:0.10.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\c47c6b171669f52ef400520f705d3e4a\transformed\jetified-soloader-0.10.1\AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.10.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\c47c6b171669f52ef400520f705d3e4a\transformed\jetified-soloader-0.10.1\AndroidManifest.xml:11:5-20
-MERGED from [androidx.core:core:1.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b1fe9740f6c86f0b7649a763c3bf2b85\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b1fe9740f6c86f0b7649a763c3bf2b85\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\47b8f488b2ddbb3907578da1290c6f45\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\47b8f488b2ddbb3907578da1290c6f45\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-25:19
+MERGED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-25:19
+MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\39a1085d5d4af67a5f6b571470d10dbd\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\39a1085d5d4af67a5f6b571470d10dbd\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9682b3254ed9860551a9b2a7c0588212\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9682b3254ed9860551a9b2a7c0588212\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta05] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\22cb1d2d3f6d0261b3945e41090acafd\transformed\jetified-firebase-appcheck-interop-16.0.0-beta05\AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta05] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\22cb1d2d3f6d0261b3945e41090acafd\transformed\jetified-firebase-appcheck-interop-16.0.0-beta05\AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1556dae953af05ca5355c800109ed3de\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1556dae953af05ca5355c800109ed3de\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.facebook.soloader:soloader:0.10.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\262bdd818f9de026e191d0e128bf74a3\transformed\jetified-soloader-0.10.1\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\262bdd818f9de026e191d0e128bf74a3\transformed\jetified-soloader-0.10.1\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\894414ed02f4ee8d37eca76ac60f7d15\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\894414ed02f4ee8d37eca76ac60f7d15\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2d9d895a504dbf0911548eed116efe5e\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2d9d895a504dbf0911548eed116efe5e\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1578e7949748085c4cec3e729ca7ef71\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1578e7949748085c4cec3e729ca7ef71\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ba59935120705d42463607cd29c4ad0e\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ba59935120705d42463607cd29c4ad0e\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\19b1530a59f8b131c3efd397c4bc2e88\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\19b1530a59f8b131c3efd397c4bc2e88\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b1fe9740f6c86f0b7649a763c3bf2b85\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ba59935120705d42463607cd29c4ad0e\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:8:7-39
 		ADDED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:8:7-39
@@ -145,106 +181,138 @@ uses-sdk
 INJECTED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml
-MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\085f8b4a0f41cc85a44e54de4c1c514d\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\085f8b4a0f41cc85a44e54de4c1c514d\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e62ba9cdfcbc65847217ffce271b75ae\transformed\jetified-flipper-network-plugin-0.99.0\AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e62ba9cdfcbc65847217ffce271b75ae\transformed\jetified-flipper-network-plugin-0.99.0\AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\a85e37ddf85ad4783e2afc44e21b0206\transformed\jetified-flipper-fresco-plugin-0.99.0\AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\a85e37ddf85ad4783e2afc44e21b0206\transformed\jetified-flipper-fresco-plugin-0.99.0\AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\da4d185028f944b40dd785dbbb5a5733\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\da4d185028f944b40dd785dbbb5a5733\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\cbded60deb9bdab86c8b4b61fe4b5086\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\cbded60deb9bdab86c8b4b61fe4b5086\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [org.webkit:android-jsc:r250230] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\c04ce6e776d8dae28f0976bd53101bc2\transformed\jetified-android-jsc-r250230\AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r250230] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\c04ce6e776d8dae28f0976bd53101bc2\transformed\jetified-android-jsc-r250230\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fresco:flipper:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\7753faa033cfc2c24ed0148dee5899c6\transformed\jetified-flipper-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:flipper:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\7753faa033cfc2c24ed0148dee5899c6\transformed\jetified-flipper-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:stetho:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\f055a2dfaf9ba0b265fa49f2ef992fbf\transformed\jetified-stetho-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:stetho:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\f055a2dfaf9ba0b265fa49f2ef992fbf\transformed\jetified-stetho-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9e43482fc7d6d60761c640c12e3c3f56\transformed\jetified-fresco-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9e43482fc7d6d60761c640c12e3c3f56\transformed\jetified-fresco-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:soloader:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\872b7e545eb8337988af4d60efeef797\transformed\jetified-soloader-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:soloader:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\872b7e545eb8337988af4d60efeef797\transformed\jetified-soloader-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\c881c6208b9620ceeb7bbdc2d513e79c\transformed\jetified-imagepipeline-okhttp3-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\c881c6208b9620ceeb7bbdc2d513e79c\transformed\jetified-imagepipeline-okhttp3-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\a58c47efcfa102db051a0b1818e9a195\transformed\jetified-drawee-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\a58c47efcfa102db051a0b1818e9a195\transformed\jetified-drawee-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\f67decb10952d992f93f2ddaf8ac576f\transformed\jetified-nativeimagefilters-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\f67decb10952d992f93f2ddaf8ac576f\transformed\jetified-nativeimagefilters-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-native:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\6a263090576d94bd2a4d4a67865317bb\transformed\jetified-memory-type-native-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-native:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\6a263090576d94bd2a4d4a67865317bb\transformed\jetified-memory-type-native-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-java:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\6884e8daf2774cfabd25d23ed59ee7a2\transformed\jetified-memory-type-java-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-java:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\6884e8daf2774cfabd25d23ed59ee7a2\transformed\jetified-memory-type-java-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\87e6292e8694f76a1f675b8acda56fa2\transformed\jetified-imagepipeline-native-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\87e6292e8694f76a1f675b8acda56fa2\transformed\jetified-imagepipeline-native-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.10.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\c47c6b171669f52ef400520f705d3e4a\transformed\jetified-soloader-0.10.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.10.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\c47c6b171669f52ef400520f705d3e4a\transformed\jetified-soloader-0.10.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e3ba144da70f6fb98ffeca4a52ba04c8\transformed\jetified-memory-type-ashmem-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e3ba144da70f6fb98ffeca4a52ba04c8\transformed\jetified-memory-type-ashmem-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\8dfe17c740417118a265352aae95768c\transformed\jetified-imagepipeline-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\8dfe17c740417118a265352aae95768c\transformed\jetified-imagepipeline-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ff1cb32f1b66b2cce2adc140daa8ffe3\transformed\jetified-nativeimagetranscoder-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ff1cb32f1b66b2cce2adc140daa8ffe3\transformed\jetified-nativeimagetranscoder-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\6b114a8939e3494460565cb087972b5e\transformed\jetified-imagepipeline-base-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\6b114a8939e3494460565cb087972b5e\transformed\jetified-imagepipeline-base-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\cc228208a118abab8e3626daa1d5d918\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\cc228208a118abab8e3626daa1d5d918\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\8d9fb6d52b61f21cd020267e56cb3bf1\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\8d9fb6d52b61f21cd020267e56cb3bf1\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\19ca5d90883b24da74a14a9b853f4a18\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\19ca5d90883b24da74a14a9b853f4a18\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.facebook.fresco:middleware:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\bf0b33de5cd86d44118af10179f0c9bd\transformed\jetified-middleware-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:middleware:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\bf0b33de5cd86d44118af10179f0c9bd\transformed\jetified-middleware-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:ui-common:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d477c8f58bb6888460bf759b661ee3d9\transformed\jetified-ui-common-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:ui-common:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d477c8f58bb6888460bf759b661ee3d9\transformed\jetified-ui-common-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\82be496d9d05673b9d20d2a8b156c0c5\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\82be496d9d05673b9d20d2a8b156c0c5\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e5eab7523fa294709cfed9955605f8ff\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e5eab7523fa294709cfed9955605f8ff\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b3b09621cca747e5e8d01c73cf2136e9\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b3b09621cca747e5e8d01c73cf2136e9\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\7ceff8a881cf225c8430b88db6f40e05\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\7ceff8a881cf225c8430b88db6f40e05\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.3] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2acf1a9c2ce85b4e72cfda4e71aad8e6\transformed\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.3] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2acf1a9c2ce85b4e72cfda4e71aad8e6\transformed\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ed1fb4f4c22b1099e078b01551fe3403\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ed1fb4f4c22b1099e078b01551fe3403\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\5aed98e1a7bd35d26e6b7e123a4f58e5\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\5aed98e1a7bd35d26e6b7e123a4f58e5\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\4cfa2ef3764f868c4ac286f96c605047\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\4cfa2ef3764f868c4ac286f96c605047\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\7f04697b6371bd88d7088940d0625bf3\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\7f04697b6371bd88d7088940d0625bf3\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\28631a0b111c0273601954918fe48ec5\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\28631a0b111c0273601954918fe48ec5\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b1fe9740f6c86f0b7649a763c3bf2b85\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b1fe9740f6c86f0b7649a763c3bf2b85\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\bd4596c4e03a42881733f45db8a548c5\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\bd4596c4e03a42881733f45db8a548c5\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\92f068a14c1f79b46435838b31cf40af\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\92f068a14c1f79b46435838b31cf40af\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\86df5c814b5f9eca8e36b9cbe56610e1\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\86df5c814b5f9eca8e36b9cbe56610e1\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2e4822f9fc5814ff03c58080f4b69279\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2e4822f9fc5814ff03c58080f4b69279\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\65298f10ce20363a24acca32d217749f\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\65298f10ce20363a24acca32d217749f\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\a00836f79cc9b0e5c3439e3127822781\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\a00836f79cc9b0e5c3439e3127822781\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\47b8f488b2ddbb3907578da1290c6f45\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\47b8f488b2ddbb3907578da1290c6f45\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d0bb36838486cba0a66bfa2c226b0163\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d0bb36838486cba0a66bfa2c226b0163\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\4814206f9931bb2b51fe2820b122a3b6\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\4814206f9931bb2b51fe2820b122a3b6\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\03d84f79ddc5d095549aff719b894525\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\03d84f79ddc5d095549aff719b894525\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\43849a663b47b5e3a36a05a548a0e4d6\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\43849a663b47b5e3a36a05a548a0e4d6\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.facebook.fresco:fbcore:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1baec9233d2cd6421cae3409a4e1f494\transformed\jetified-fbcore-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1baec9233d2cd6421cae3409a4e1f494\transformed\jetified-fbcore-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2e9fb0efe392e058045f5a12fe5867c7\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2e9fb0efe392e058045f5a12fe5867c7\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\03b46fa6c5873be122e390e2d792ed62\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\03b46fa6c5873be122e390e2d792ed62\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\3c320c6e2240fc14613206d5fc478993\transformed\jetified-flipper-network-plugin-0.99.0\AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\3c320c6e2240fc14613206d5fc478993\transformed\jetified-flipper-network-plugin-0.99.0\AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d2c715cc25ed0688e8bccc58e3c771dd\transformed\jetified-flipper-fresco-plugin-0.99.0\AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d2c715cc25ed0688e8bccc58e3c771dd\transformed\jetified-flipper-fresco-plugin-0.99.0\AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-firebase_firestore] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\firestore\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_firestore] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\firestore\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\39a1085d5d4af67a5f6b571470d10dbd\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\39a1085d5d4af67a5f6b571470d10dbd\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\49ff1c78ea09a8c82fe2f4885d0de645\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\49ff1c78ea09a8c82fe2f4885d0de645\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [org.webkit:android-jsc:r250230] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\708adc184e060c859c5caf15c862a376\transformed\jetified-android-jsc-r250230\AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r250230] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\708adc184e060c859c5caf15c862a376\transformed\jetified-android-jsc-r250230\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9682b3254ed9860551a9b2a7c0588212\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9682b3254ed9860551a9b2a7c0588212\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta05] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\22cb1d2d3f6d0261b3945e41090acafd\transformed\jetified-firebase-appcheck-interop-16.0.0-beta05\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta05] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\22cb1d2d3f6d0261b3945e41090acafd\transformed\jetified-firebase-appcheck-interop-16.0.0-beta05\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1556dae953af05ca5355c800109ed3de\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1556dae953af05ca5355c800109ed3de\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:flipper:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9b83268c1c7e7e4bf514f2cf45117505\transformed\jetified-flipper-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9b83268c1c7e7e4bf514f2cf45117505\transformed\jetified-flipper-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\11f09e0d5d82c6f1ba93e66a4c63f2ce\transformed\jetified-stetho-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\11f09e0d5d82c6f1ba93e66a4c63f2ce\transformed\jetified-stetho-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\04faaa2049a08b9dad18701d59b70745\transformed\jetified-fresco-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\04faaa2049a08b9dad18701d59b70745\transformed\jetified-fresco-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\4b197f3438a2c4cb37529c1fefd82976\transformed\jetified-soloader-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\4b197f3438a2c4cb37529c1fefd82976\transformed\jetified-soloader-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2f813d2ace528b22e7ee93c2906639dd\transformed\jetified-imagepipeline-okhttp3-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2f813d2ace528b22e7ee93c2906639dd\transformed\jetified-imagepipeline-okhttp3-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\c2e408a1b2d782007c7d0fe6fa370405\transformed\jetified-drawee-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\c2e408a1b2d782007c7d0fe6fa370405\transformed\jetified-drawee-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e712596d3be4569c805e8374247b3e08\transformed\jetified-nativeimagefilters-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e712596d3be4569c805e8374247b3e08\transformed\jetified-nativeimagefilters-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e3e844f6b34fac24f7a29070fafb6c0c\transformed\jetified-memory-type-native-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e3e844f6b34fac24f7a29070fafb6c0c\transformed\jetified-memory-type-native-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\99e3b0a70ebe18a007b8d463a43f0aa7\transformed\jetified-memory-type-java-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\99e3b0a70ebe18a007b8d463a43f0aa7\transformed\jetified-memory-type-java-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\27106b043064556c0474a3b106eb8ea3\transformed\jetified-imagepipeline-native-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\27106b043064556c0474a3b106eb8ea3\transformed\jetified-imagepipeline-native-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.10.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\262bdd818f9de026e191d0e128bf74a3\transformed\jetified-soloader-0.10.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\262bdd818f9de026e191d0e128bf74a3\transformed\jetified-soloader-0.10.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\30dbb0164433c8c544faead083c0abcc\transformed\jetified-memory-type-ashmem-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\30dbb0164433c8c544faead083c0abcc\transformed\jetified-memory-type-ashmem-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ad9bcb00e0fa8bd52c57550866a7d04e\transformed\jetified-imagepipeline-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ad9bcb00e0fa8bd52c57550866a7d04e\transformed\jetified-imagepipeline-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d1218d11460093bab0d1f21c18626376\transformed\jetified-nativeimagetranscoder-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d1218d11460093bab0d1f21c18626376\transformed\jetified-nativeimagetranscoder-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d197133b316a3edd94f029cbca01b428\transformed\jetified-imagepipeline-base-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d197133b316a3edd94f029cbca01b428\transformed\jetified-imagepipeline-base-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\31fce8b6f6c76a487454f21b15f2e11f\transformed\jetified-grpc-android-1.44.1\AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\31fce8b6f6c76a487454f21b15f2e11f\transformed\jetified-grpc-android-1.44.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b15ea1db6bc191e16f8464486ade81bc\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b15ea1db6bc191e16f8464486ade81bc\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\4c23104d12febf3c724ac864711e36ff\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\4c23104d12febf3c724ac864711e36ff\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e33a7f78a6ed75de939ae7cd957526e6\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e33a7f78a6ed75de939ae7cd957526e6\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:middleware:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ed38773d1e61d06b0bc0766a8069f6a0\transformed\jetified-middleware-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ed38773d1e61d06b0bc0766a8069f6a0\transformed\jetified-middleware-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\82f08dfda96df7a861f664380540977e\transformed\jetified-ui-common-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\82f08dfda96df7a861f664380540977e\transformed\jetified-ui-common-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9f8cf7a85fbb4781c12546005de6a308\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9f8cf7a85fbb4781c12546005de6a308\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2392988e271ef77a77203696dd5136dc\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2392988e271ef77a77203696dd5136dc\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9977eb8b3bb409e5af237fcf6e8dc0d2\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9977eb8b3bb409e5af237fcf6e8dc0d2\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\5664a80dad60fcdbddeb1aeb2be19897\transformed\jetified-play-services-auth-api-phone-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\5664a80dad60fcdbddeb1aeb2be19897\transformed\jetified-play-services-auth-api-phone-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\a6a33d189622e1195a288dd1b394e239\transformed\jetified-play-services-auth-base-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\a6a33d189622e1195a288dd1b394e239\transformed\jetified-play-services-auth-base-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9f00b0374bd065bd9db672c079c98a6d\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9f00b0374bd065bd9db672c079c98a6d\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\894414ed02f4ee8d37eca76ac60f7d15\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\894414ed02f4ee8d37eca76ac60f7d15\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2d9d895a504dbf0911548eed116efe5e\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2d9d895a504dbf0911548eed116efe5e\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1578e7949748085c4cec3e729ca7ef71\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1578e7949748085c4cec3e729ca7ef71\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\a12af10e25cee0b86eb0004fe09e214a\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\a12af10e25cee0b86eb0004fe09e214a\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ddef84576f483b307a7d2351a4f913cb\transformed\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ddef84576f483b307a7d2351a4f913cb\transformed\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\0ba045090b62e9f73bb3de7889f26c8d\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\0ba045090b62e9f73bb3de7889f26c8d\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\fb981241d2eb3a681f7867d7649c0886\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\fb981241d2eb3a681f7867d7649c0886\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\02eeb76c7a3f3325e96069516063d930\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\02eeb76c7a3f3325e96069516063d930\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\791aea767b05a7c2249dd824adbb1c1b\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\791aea767b05a7c2249dd824adbb1c1b\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\415170619435589772d861c2ac30ff2a\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\415170619435589772d861c2ac30ff2a\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ba59935120705d42463607cd29c4ad0e\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ba59935120705d42463607cd29c4ad0e\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9824b6417612aa80f363901316f29c34\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9824b6417612aa80f363901316f29c34\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\bce3491c290817df64ad1bba4b65a3a2\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\bce3491c290817df64ad1bba4b65a3a2\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e002212956a4c00f98db9ff80e3ff16a\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e002212956a4c00f98db9ff80e3ff16a\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\32d0cc503a456d1f5dd968aa08d06b8a\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\32d0cc503a456d1f5dd968aa08d06b8a\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\6bf49d26fb7f41744418b1caead608e2\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\6bf49d26fb7f41744418b1caead608e2\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\0d6ffc9db6648e2113ba130bbaf98b92\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\0d6ffc9db6648e2113ba130bbaf98b92\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\fd4857e1b6db9ede305b833d677418c1\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\fd4857e1b6db9ede305b833d677418c1\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\19b1530a59f8b131c3efd397c4bc2e88\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\19b1530a59f8b131c3efd397c4bc2e88\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\c1c5d309b46d1936423ecefd56240c30\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\c1c5d309b46d1936423ecefd56240c30\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\74e8d220ab1fec98f87abcc07123243e\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\74e8d220ab1fec98f87abcc07123243e\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\17a33425a1226a2a14340fcd1656b1af\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\17a33425a1226a2a14340fcd1656b1af\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\771d010818804dd9a48a9b799b566203\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\771d010818804dd9a48a9b799b566203\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fbcore:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2ff8447630728faa4aa787d38ff724e5\transformed\jetified-fbcore-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\2ff8447630728faa4aa787d38ff724e5\transformed\jetified-fbcore-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\91dedbcb28a80ef4a44b6aad015a26e0\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\91dedbcb28a80ef4a44b6aad015a26e0\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ce6b68f5c0831d8f59e79c624c1e9561\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ce6b68f5c0831d8f59e79c624c1e9561\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 INJECTED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\debug\AndroidManifest.xml
 INJECTED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
@@ -262,6 +330,100 @@ ADDED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\debug\
 	android:name
 		ADDED from C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\debug\AndroidManifest.xml:11:19-83
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [com.facebook.flipper:flipper:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\085f8b4a0f41cc85a44e54de4c1c514d\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
+ADDED from [com.facebook.flipper:flipper:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\03b46fa6c5873be122e390e2d792ed62\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
 	android:name
-		ADDED from [com.facebook.flipper:flipper:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\085f8b4a0f41cc85a44e54de4c1c514d\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
+		ADDED from [com.facebook.flipper:flipper:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\03b46fa6c5873be122e390e2d792ed62\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
+meta-data#app_data_collection_default_enabled
+ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:36
+	android:value
+		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-33
+	android:name
+		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-18:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9682b3254ed9860551a9b2a7c0588212\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9682b3254ed9860551a9b2a7c0588212\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9682b3254ed9860551a9b2a7c0588212\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:19:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:18-89
+meta-data#com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar
+ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-120
+provider#io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
+ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-24:38
+	android:authorities
+		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-86
+	android:exported
+		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+	android:initOrder
+		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-35
+	android:name
+		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-88
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9682b3254ed9860551a9b2a7c0588212\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:13:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\31fce8b6f6c76a487454f21b15f2e11f\transformed\jetified-grpc-android-1.44.1\AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\31fce8b6f6c76a487454f21b15f2e11f\transformed\jetified-grpc-android-1.44.1\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9682b3254ed9860551a9b2a7c0588212\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:13:22-76
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9682b3254ed9860551a9b2a7c0588212\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9682b3254ed9860551a9b2a7c0588212\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9682b3254ed9860551a9b2a7c0588212\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:21:17-111
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\894414ed02f4ee8d37eca76ac60f7d15\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\894414ed02f4ee8d37eca76ac60f7d15\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\894414ed02f4ee8d37eca76ac60f7d15\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\894414ed02f4ee8d37eca76ac60f7d15\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1578e7949748085c4cec3e729ca7ef71\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1578e7949748085c4cec3e729ca7ef71\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1578e7949748085c4cec3e729ca7ef71\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
