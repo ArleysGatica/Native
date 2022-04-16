@@ -75,3 +75,6 @@ ios
 Gemfile.lock
 babel.config.js
 metro.config.js
+
+# dependencies
+/node_modules

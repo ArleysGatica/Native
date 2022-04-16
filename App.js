@@ -7,7 +7,7 @@ import Firebase from './src/Service/Firebase';
 const App = () => {
     return (
         <View style={estilos.contenedor}>
-            <Firebase />
+            <Welcome />
         </View>
     )
 }
@@ -15,10 +15,9 @@ const App = () => {
 const estilos = StyleSheet.create({
 
     contenedor: {
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-    }
+       
+    
+           }
 
 });
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, ScrollView } from 'react-native';
+import { View, Text, ScrollView, Image  } from 'react-native';
 import firestore from '@react-native-firebase/firestore';
 
 const Firebase = () => {
@@ -8,8 +8,7 @@ const Firebase = () => {
 
     useEffect(() => {
         firestore()
-            
-            .collection('/Specialities')
+            .collection('Establishments')
             .get()
             .then(querySnapshot => {
                 const data = [];
@@ -23,13 +22,19 @@ const Firebase = () => {
     
         return (
            <ScrollView>
-                <Text>Conexion con Firebase...</Text>
-                {data.map(item => (
-                    <Text key={item.id}>{item.name}</Text>
-                ))}
-                
-                
-              </ScrollView>
+                <Text>Conexion con Firebase</Text>
+                {
+                    data && data !== [] && data.map((item, index) => {
+                        return (
+                            <View key={index}>
+                                <Text>{item.name}</Text>
+                                <Text>{item.location}</Text>
+                                <Image source={{uri: item.image}} style={{width: 100, height: 100}} />
+                            </View>
+                        )
+                    })
+               }
+                              </ScrollView>
         );
     
 }
