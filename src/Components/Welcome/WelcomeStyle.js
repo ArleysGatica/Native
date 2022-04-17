@@ -1,7 +1,4 @@
-import {
-    StyleSheet,
-} from 'react-native';
-
+import { StyleSheet } from 'react-native';
 
 const estilos = StyleSheet.create({
 
@@ -11,7 +8,6 @@ const estilos = StyleSheet.create({
         justifyContent: 'center',
         backgroundColor: '#fff',
         paddingTop: 50,
-
     },
 
     Title: {
@@ -19,7 +15,6 @@ const estilos = StyleSheet.create({
         fontWeight: "bold",
         color: "#000000",
         fontFamily: 'poppins',
-
         textAlign: "center",
     },
 
