@@ -3,7 +3,7 @@ import firestore from '@react-native-firebase/firestore';
 
 const Specialities = () => {
 
-    cost[GetState, setGetState] = useState([]);
+    const[Data, setData] = useState([]);
      
     useEffect(() => {
         firestore()
@@ -14,7 +14,7 @@ const Specialities = () => {
                 querySnapshot.forEach(doc => {
                     data.push(doc.data());
                 });
-                setGetState(data);
+                setData(data);
             });
     }, []);      
 

@@ -12,7 +12,7 @@ const Home = () => {
           style={estilos.sidebar}
         />
         <Image
-          source={require('../../Asset/sidebar.png')}
+          source={require('../../Asset/user.png')}
           style={estilos.sidebar}
         />
       </View>

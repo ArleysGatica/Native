@@ -132,6 +132,49 @@ const estilos = StyleSheet.create({
         color: 'white',
         margin: 10,
     },
+
+    Container_Perfil: {
+        flex: 1,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        left: 16,
+        marginTop: 10,
+        maxWidth: 380,
+        maxHeight: 100,
+    },
+
+    Container_Perfil_img_img: {
+        maxWidth: 90,
+        maxHeight: 90,
+    },
+
+    Container_Perfil_item: {
+        flex: 1,
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        maxWidth: 200,
+    },
+
+    Container_Perfil_info_name: {
+        fontSize: 20,
+        fontWeight: 'bold',
+        color: 'black',
+    },
+
+    Container_Perfil_info_speciality: {
+        fontSize: 16,
+        color: 'black',
+    },
+
+    img_right: {
+        alignSelf: 'center',
+    },
+
+    Container_Perfil_PUN: {
+        maxWidth: 40,
+        maxHeight: 40,
+    }
       
  });
 
