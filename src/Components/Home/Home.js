@@ -1,9 +1,12 @@
 import React from 'react';
 import {Text, View, ScrollView, Image, TextInput} from 'react-native';
 import estilos from './HomeStyle';
-import {HomeCard} from './HomeCard';
+import { HomeCard } from './HomeCard';
 
-const Home = () => {
+const Home = ({data}) => {
+        
+    console.log({ data });
+
   return (
     <ScrollView>
       <View style={estilos.Header}>
@@ -49,9 +52,11 @@ const Home = () => {
           </Text>
         </View>
       </View>
-      <View>
+          <View>
+              
         <HomeCard />
-      </View>
+          </View>
+         
     </ScrollView>
   );
 };

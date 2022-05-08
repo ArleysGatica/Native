@@ -6,7 +6,7 @@ import {
 } from 'react-native';
 import estilos from './HomeStyle';
 
-export const HomeCard = () => {
+export const HomeCard = ({}) => {
     return (
         <ScrollView>
             <View style={estilos.Container_Category}>
