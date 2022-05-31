@@ -1,12 +1,18 @@
 import React from 'react';
-import { Image, View, StyleSheet } from 'react-native';
+import { Image, View, StyleSheet, SafeAreaView, Button, TouchableOpacity } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
 const Logo = () => {
+
+    const navigation = useNavigation();
+
     return (
-        <View style={estilos.contenedor}>
+        <SafeAreaView style={estilos.contenedor}>
             <Image source={require('../../Asset/Logo.png')} />
-            <Image style={estilos.Icons} source={require('../../Asset/next-button.png')} />
-        </View>
+            <TouchableOpacity onPress={() => navigation.navigate('Welcome')}>
+                <Image style={estilos.Icons} source={require('../../Asset/next-button.png')} />
+            </TouchableOpacity>
+        </SafeAreaView>
     )
 }
 

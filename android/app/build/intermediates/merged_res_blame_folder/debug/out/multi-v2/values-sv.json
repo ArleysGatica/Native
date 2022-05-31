@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Arleys Gatica\\Repositorio\\ReactNative\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
+            "outputFile": "C:\\Users\\Arleys Gatica\\Repositorio\\Native\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Arleys Gatica\\.gradle\\caches\\transforms-3\\ba59935120705d42463607cd29c4ad0e\\transformed\\core-1.5.0\\res\\values-sv\\values-sv.xml",

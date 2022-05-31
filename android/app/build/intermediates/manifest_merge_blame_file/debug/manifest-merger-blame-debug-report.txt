@@ -9,157 +9,237 @@
 9        android:targetSdkVersion="30" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\debug\AndroidManifest.xml:5:5-77
-11-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\debug\AndroidManifest.xml:5:22-75
+11-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\debug\AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:4:5-67
-12-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:4:22-64
-13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\03b46fa6c5873be122e390e2d792ed62\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
 13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\03b46fa6c5873be122e390e2d792ed62\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
-14    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:react-native-firebase_auth] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
+14-->[:react-native-firebase_auth] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[com.google.firebase:firebase-firestore:24.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9682b3254ed9860551a9b2a7c0588212\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:13:5-79
-15-->[com.google.firebase:firebase-firestore:24.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9682b3254ed9860551a9b2a7c0588212\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:13:22-76
+15-->[:react-native-firebase_auth] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-79
+15-->[:react-native-firebase_auth] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-76
 16
 17    <application
-17-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:6:5-24:19
+17-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:6:5-24:19
 18        android:name="com.reactnative.MainApplication"
-18-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:7:7-38
+18-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:7:7-38
 19        android:allowBackup="false"
-19-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:11:7-34
+19-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:11:7-34
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 20-->[androidx.core:core:1.5.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\ba59935120705d42463607cd29c4ad0e\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 21        android:debuggable="true"
 22        android:icon="@mipmap/ic_launcher"
-22-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:9:7-41
+22-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:9:7-41
 23        android:label="@string/app_name"
-23-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:8:7-39
+23-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:8:7-39
 24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:10:7-52
+24-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:10:7-52
 25        android:theme="@style/AppTheme"
-25-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:12:7-38
+25-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:12:7-38
 26        android:usesCleartextTraffic="true" >
-26-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\debug\AndroidManifest.xml:8:9-44
+26-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\debug\AndroidManifest.xml:8:9-44
 27        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-27-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\debug\AndroidManifest.xml:11:9-86
-27-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\debug\AndroidManifest.xml:11:19-83
+27-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\debug\AndroidManifest.xml:11:9-86
+27-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\debug\AndroidManifest.xml:11:19-83
 28        <activity
-28-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:13:7-23:18
+28-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:13:7-23:18
 29            android:name="com.reactnative.MainActivity"
-29-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:14:9-37
+29-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:14:9-37
 30            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-30-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:16:9-86
+30-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:16:9-86
 31            android:label="@string/app_name"
-31-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:15:9-41
+31-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:15:9-41
 32            android:launchMode="singleTask"
-32-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:17:9-40
+32-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:17:9-40
 33            android:windowSoftInputMode="adjustResize" >
-33-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:18:9-51
+33-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:18:9-51
 34            <intent-filter>
-34-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:19:9-22:25
+34-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:19:9-22:25
 35                <action android:name="android.intent.action.MAIN" />
-35-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:20:13-65
-35-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:20:21-62
+35-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:20:13-65
+35-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:20:21-62
 36
 37                <category android:name="android.intent.category.LAUNCHER" />
-37-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:21:13-73
-37-->C:\Users\Arleys Gatica\Repositorio\ReactNative\android\app\src\main\AndroidManifest.xml:21:23-70
+37-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:21:13-73
+37-->C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:21:23-70
 38            </intent-filter>
 39        </activity>
 40
 41        <meta-data
-41-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:36
+41-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:36
 42            android:name="app_data_collection_default_enabled"
-42-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
+42-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
 43            android:value="true" />
-43-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-33
+43-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-33
 44
 45        <service
-45-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-18:19
+45-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-18:19
 46            android:name="com.google.firebase.components.ComponentDiscoveryService"
-46-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:18-89
+46-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:18-89
 47            android:directBootAware="true"
-47-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+47-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b11e84238f179ca4a658c19fde5eb9f4\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
 48            android:exported="false" >
-48-->[com.google.firebase:firebase-firestore:24.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9682b3254ed9860551a9b2a7c0588212\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:19:13-37
+48-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:66:13-37
 49            <meta-data
-49-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:85
+49-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:85
 50                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
-50-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-120
+50-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-120
 51                android:value="com.google.firebase.components.ComponentRegistrar" />
-51-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-82
+51-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-82
 52            <meta-data
-52-->[com.google.firebase:firebase-firestore:24.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9682b3254ed9860551a9b2a7c0588212\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:20:13-22:85
-53                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-53-->[com.google.firebase:firebase-firestore:24.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9682b3254ed9860551a9b2a7c0588212\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:21:17-111
+52-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:67:13-69:85
+53                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+53-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:68:17-109
 54                android:value="com.google.firebase.components.ComponentRegistrar" />
-54-->[com.google.firebase:firebase-firestore:24.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\9682b3254ed9860551a9b2a7c0588212\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:22:17-82
-55        </service>
-56
-57        <provider
-57-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-24:38
-58            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
-58-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-88
-59            android:authorities="com.reactnative.reactnativefirebaseappinitprovider"
-59-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-86
-60            android:exported="false"
-60-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
-61            android:initOrder="99" />
-61-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\ReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-35
-62        <provider
-62-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
-63            android:name="com.google.firebase.provider.FirebaseInitProvider"
-63-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:27:13-77
-64            android:authorities="com.reactnative.firebaseinitprovider"
-64-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:28:13-72
-65            android:directBootAware="true"
-65-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:29:13-43
-66            android:exported="false"
-66-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:30:13-37
-67            android:initOrder="100" />
-67-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\e06a930cb861212b077502b393c07a3a\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:31:13-36
-68
-69        <activity
-69-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:23:9-27:75
-70            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-70-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:24:13-93
-71            android:excludeFromRecents="true"
-71-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:25:13-46
-72            android:exported="false"
-72-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:26:13-37
-73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-73-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:27:13-72
-74        <!--
-75            Service handling Google Sign-In user revocation. For apps that do not integrate with
-76            Google Sign-In, this service will never be started.
-77        -->
-78        <service
-78-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:33:9-37:51
-79            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-79-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:34:13-89
-80            android:exported="true"
-80-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:35:13-36
-81            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-81-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:36:13-107
-82            android:visibleToInstantApps="true" />
-82-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:37:13-48
-83
+54-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:69:17-82
+55            <meta-data
+55-->[com.google.firebase:firebase-firestore:24.1.2] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\dfdf6e8aba9356e9247e3e3abfb491ba\transformed\jetified-firebase-firestore-24.1.2\AndroidManifest.xml:20:13-22:85
+56                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+56-->[com.google.firebase:firebase-firestore:24.1.2] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\dfdf6e8aba9356e9247e3e3abfb491ba\transformed\jetified-firebase-firestore-24.1.2\AndroidManifest.xml:21:17-111
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[com.google.firebase:firebase-firestore:24.1.2] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\dfdf6e8aba9356e9247e3e3abfb491ba\transformed\jetified-firebase-firestore-24.1.2\AndroidManifest.xml:22:17-82
+58        </service>
+59
+60        <provider
+60-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-24:38
+61            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+61-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-88
+62            android:authorities="com.reactnative.reactnativefirebaseappinitprovider"
+62-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-86
+63            android:exported="false"
+63-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+64            android:initOrder="99" />
+64-->[:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-35
+65
+66        <activity
+66-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:27:9-44:20
+67            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+67-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:28:13-80
+68            android:excludeFromRecents="true"
+68-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:29:13-46
+69            android:exported="true"
+69-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:30:13-36
+70            android:launchMode="singleTask"
+70-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:31:13-44
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+71-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:32:13-72
+72            <intent-filter>
+72-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:33:13-43:29
+73                <action android:name="android.intent.action.VIEW" />
+73-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:34:17-69
+73-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:34:25-66
+74
+75                <category android:name="android.intent.category.DEFAULT" />
+75-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:36:17-76
+75-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:36:27-73
+76                <category android:name="android.intent.category.BROWSABLE" />
+76-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:37:17-78
+76-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:37:27-75
+77
+78                <data
+78-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:39:17-42:51
+79                    android:host="firebase.auth"
+79-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:40:21-49
+80                    android:path="/"
+80-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:41:21-37
+81                    android:scheme="genericidp" />
+81-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:42:21-48
+82            </intent-filter>
+83        </activity>
 84        <activity
-84-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\894414ed02f4ee8d37eca76ac60f7d15\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-85            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-85-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\894414ed02f4ee8d37eca76ac60f7d15\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-86            android:exported="false"
-86-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\894414ed02f4ee8d37eca76ac60f7d15\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-87-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\894414ed02f4ee8d37eca76ac60f7d15\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-88
-89        <meta-data
-89-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1578e7949748085c4cec3e729ca7ef71\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-90            android:name="com.google.android.gms.version"
-90-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1578e7949748085c4cec3e729ca7ef71\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
-91            android:value="@integer/google_play_services_version" />
-91-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1578e7949748085c4cec3e729ca7ef71\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
-92    </application>
-93
-94</manifest>
+84-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:45:9-62:20
+85            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+85-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:46:13-79
+86            android:excludeFromRecents="true"
+86-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:47:13-46
+87            android:exported="true"
+87-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:48:13-36
+88            android:launchMode="singleTask"
+88-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:49:13-44
+89            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+89-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:50:13-72
+90            <intent-filter>
+90-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:51:13-61:29
+91                <action android:name="android.intent.action.VIEW" />
+91-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:34:17-69
+91-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:34:25-66
+92
+93                <category android:name="android.intent.category.DEFAULT" />
+93-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:36:17-76
+93-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:36:27-73
+94                <category android:name="android.intent.category.BROWSABLE" />
+94-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:37:17-78
+94-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:37:27-75
+95
+96                <data
+96-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:39:17-42:51
+97                    android:host="firebase.auth"
+97-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:40:21-49
+98                    android:path="/"
+98-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:41:21-37
+99                    android:scheme="recaptcha" />
+99-->[com.google.firebase:firebase-auth:21.0.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d975191969d1ae64213be477cbd35ab0\transformed\jetified-firebase-auth-21.0.4\AndroidManifest.xml:42:21-48
+100            </intent-filter>
+101        </activity>
+102
+103        <provider
+103-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b11e84238f179ca4a658c19fde5eb9f4\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+104            android:name="com.google.firebase.provider.FirebaseInitProvider"
+104-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b11e84238f179ca4a658c19fde5eb9f4\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+105            android:authorities="com.reactnative.firebaseinitprovider"
+105-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b11e84238f179ca4a658c19fde5eb9f4\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+106            android:directBootAware="true"
+106-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b11e84238f179ca4a658c19fde5eb9f4\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+107            android:exported="false"
+107-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b11e84238f179ca4a658c19fde5eb9f4\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+108            android:initOrder="100" />
+108-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b11e84238f179ca4a658c19fde5eb9f4\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+109
+110        <activity
+110-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:23:9-27:75
+111            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+111-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:24:13-93
+112            android:excludeFromRecents="true"
+112-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:25:13-46
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:26:13-37
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:27:13-72
+115        <!--
+116            Service handling Google Sign-In user revocation. For apps that do not integrate with
+117            Google Sign-In, this service will never be started.
+118        -->
+119        <service
+119-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:33:9-37:51
+120            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+120-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:34:13-89
+121            android:exported="true"
+121-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:35:13-36
+122            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+122-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:36:13-107
+123            android:visibleToInstantApps="true" />
+123-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\71687c9cad25ef0aa8a89d915aac748e\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:37:13-48
+124
+125        <activity
+125-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\894414ed02f4ee8d37eca76ac60f7d15\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+126            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+126-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\894414ed02f4ee8d37eca76ac60f7d15\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+127            android:exported="false"
+127-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\894414ed02f4ee8d37eca76ac60f7d15\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+128            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+128-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\894414ed02f4ee8d37eca76ac60f7d15\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+129
+130        <meta-data
+130-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1578e7949748085c4cec3e729ca7ef71\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+131            android:name="com.google.android.gms.version"
+131-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1578e7949748085c4cec3e729ca7ef71\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+132            android:value="@integer/google_play_services_version" />
+132-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\1578e7949748085c4cec3e729ca7ef71\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+133    </application>
+134
+135</manifest>

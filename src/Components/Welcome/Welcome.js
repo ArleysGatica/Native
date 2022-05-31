@@ -1,12 +1,9 @@
 import React from 'react';
-import {
-    Text, View, ScrollView,
-    Image, Button
-} from 'react-native';
+import { Text, View, ScrollView, Image, Button, TouchableOpacity } from 'react-native';
 
 import estilos from './WelcomeStyle';
 
-const Welcome = () => {
+const Welcome = ({navigation}) => {
     return (
 
         <ScrollView>
@@ -20,9 +17,9 @@ const Welcome = () => {
                     style={estilos.Logo}
                 />
                 <View style={estilos.Button}>
-                    <Button
-                        title="Get Started"
-                    />
+                    <TouchableOpacity onPress={() => navigation.navigate('Home')}>
+                       <Button onPress={ () => navigation.navigate('Home')} title="Get Started"/>
+                    </TouchableOpacity>
                 </View>
             </View>
 

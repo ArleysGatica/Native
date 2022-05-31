@@ -1,12 +1,10 @@
 import React from 'react';
-import {Text, View, ScrollView, Image, TextInput} from 'react-native';
+import { Text, View, ScrollView, Image, TextInput, TouchableOpacity } from 'react-native';
 import estilos from './HomeStyle';
 import { HomeCard } from './HomeCard';
 
-const Home = ({data}) => {
+const Home = ({navigation}) => {
         
-    console.log({ data });
-
   return (
     <ScrollView>
       <View style={estilos.Header}>
@@ -40,7 +38,8 @@ const Home = ({data}) => {
       <View style={estilos.Container_Category}>
         <Text style={estilos.Container_Category_Info_Cat}>Category</Text>
         <Text style={estilos.Container_Category_Info_sell}>See All</Text>
-      </View>
+          </View>
+          <TouchableOpacity onPress={() => navigation.navigate('ServiceSpecialities')}>
       <View style={estilos.Container_Category_items}>
         <View style={estilos.Container_Category_Item}>
           <Image
@@ -51,7 +50,8 @@ const Home = ({data}) => {
             Specialities
           </Text>
         </View>
-      </View>
+              </View>
+                </TouchableOpacity>
           <View>
               
         <HomeCard />

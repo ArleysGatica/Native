@@ -13,8 +13,16 @@ import java.util.ArrayList;
 
 // @react-native-firebase/app
 import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
+// @react-native-firebase/auth
+import io.invertase.firebase.auth.ReactNativeFirebaseAuthPackage;
 // @react-native-firebase/firestore
 import io.invertase.firebase.firestore.ReactNativeFirebaseFirestorePackage;
+// @react-native-google-signin/google-signin
+import com.reactnativegooglesignin.RNGoogleSigninPackage;
+// react-native-safe-area-context
+import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
+// react-native-screens
+import com.swmansion.rnscreens.RNScreensPackage;
 
 public class PackageList {
   private Application application;
@@ -61,7 +69,11 @@ public class PackageList {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
       new ReactNativeFirebaseAppPackage(),
-      new ReactNativeFirebaseFirestorePackage()
+      new ReactNativeFirebaseAuthPackage(),
+      new ReactNativeFirebaseFirestorePackage(),
+      new RNGoogleSigninPackage(),
+      new SafeAreaContextPackage(),
+      new RNScreensPackage()
     ));
   }
 }

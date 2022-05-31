@@ -1,25 +1,34 @@
-import React from 'react';
-import { Text, View, StyleSheet } from 'react-native';
+import * as React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Logo from './src/Components/Welcome/Logo';
 import Welcome from './src/Components/Welcome/Welcome';
-import Firebase from './src/Service/Firebase';
 import Home from './src/Components/Home/Home';
+import ServiceSpecialities from './src/Service/Speciality';
+import Profile from './src/Components/Profile-Doctor/Profile';
 
-const App = () => {
+const Stack = createNativeStackNavigator();
+
+function LogoStack() {
     return (
-        <View style={estilos.contenedor}>
-            <Home />
-        </View>
+        <Stack.Navigator>
+            <Stack.Screen name="LOGUITO" component={Logo} />
+            <Stack.Screen name="Welcome" component={Welcome} />
+            <Stack.Screen name="Home" component={Home} />
+            <Stack.Screen name="ServiceSpecialities" component={ServiceSpecialities} />
+        </Stack.Navigator>
     )
 }
 
-const estilos = StyleSheet.create({
-
-    contenedor: {
-       
-    
-           }
-
-});
-
-export default App;
+function RootNatigator() {
+    return (
+        <NavigationContainer>
+            <Profile />
+        </NavigationContainer>
+    )
+}
+export default function App() {
+    return (
+        <RootNatigator />
+    );    
+}
