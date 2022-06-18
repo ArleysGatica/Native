@@ -32,6 +32,7 @@ const SingLogin = () => {
             await GoogleSignin.revokeAccess();
             await GoogleSignin.signOut();
             setUser(null);
+            console.log("signed out");
         } catch (error) {
             console.log(error);
         }

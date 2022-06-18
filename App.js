@@ -6,6 +6,8 @@ import Welcome from './src/Components/Welcome/Welcome';
 import Home from './src/Components/Home/Home';
 import ServiceSpecialities from './src/Service/Speciality';
 import Profile from './src/Components/Profile-Doctor/Profile';
+import ReservationAgenda from './src/Components/Home/j';
+import SingLogin from './src/Service/SingLogin';
 
 const Stack = createNativeStackNavigator();
 
@@ -23,7 +25,7 @@ function LogoStack() {
 function RootNatigator() {
     return (
         <NavigationContainer>
-            <Profile />
+            <ReservationAgenda />
         </NavigationContainer>
     )
 }

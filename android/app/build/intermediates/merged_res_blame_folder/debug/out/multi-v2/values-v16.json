@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Arleys Gatica\\Repositorio\\Native\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "com.reactnative.app-mergeDebugResources-28:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Arleys Gatica\\.gradle\\caches\\transforms-3\\b15ea1db6bc191e16f8464486ade81bc\\transformed\\appcompat-1.3.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Arleys Gatica\\.gradle\\caches\\transforms-3\\d8b22de5c84c3e9696b6912e304b8d84\\transformed\\appcompat-1.3.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Arleys Gatica\\.gradle\\caches\\transforms-3\\ba59935120705d42463607cd29c4ad0e\\transformed\\core-1.5.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Arleys Gatica\\.gradle\\caches\\transforms-3\\eaf421e2547c4985151755a55f6b37a6\\transformed\\core-1.5.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -39,10 +39,8 @@ const ServiceSpecialities = () => {
                         renderItem={({ item }) => (
                             <ScrollView
                                 style={{
-                                    
                                     marginHorizontal: 10,
                                     marginVertical: 10,
-                                    
                                     backgroundColor: '#00B9E4',
                                     alignSelf: 'center',
                                     borderRadius: 20,
@@ -56,11 +54,9 @@ const ServiceSpecialities = () => {
                                     style={{ fontSize: 20, margin: 10, fontWeight: 'bold', alignSelf: 'center'  }}
                                 >{item.name}
                                 </Text>
-                                
-                                
                             </ScrollView>
                         )}
-                            />                                                             
+                            />
                 </View>
             </View>
         </>

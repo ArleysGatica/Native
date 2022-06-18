@@ -756,15 +756,19 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="copy_toast_msg">Link copied to clipboard</string>
     <string name="default_web_client_id" translatable="false">663908802543-p4no9ub7j6l3no76r92effc9jiucg4n2.apps.googleusercontent.com</string>
     <string name="error_icon_content_description">Error</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="fallback_menu_item_copy_link">Copy link</string>
+    <string name="fallback_menu_item_open_in_browser">Open in browser</string>
+    <string name="fallback_menu_item_share_link">Share link</string>
     <string name="firebase_database_url" translatable="false">https://medicall-3dced.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">663908802543</string>
     <string name="google_api_key" translatable="false">AIzaSyDm6lPQwlNcSel0lzmCR7BBmV0dwkEKS_0</string>
-    <string name="google_app_id" translatable="false">1:663908802543:android:3a8a2815f93d3d266a601a</string>
+    <string name="google_app_id" translatable="false">1:663908802543:android:3d237d33e35b06b46a601a</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDm6lPQwlNcSel0lzmCR7BBmV0dwkEKS_0</string>
     <string name="google_storage_bucket" translatable="false">medicall-3dced.appspot.com</string>
     <string name="header_description" translatable="false">Heading</string>

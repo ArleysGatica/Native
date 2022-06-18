@@ -1,8 +1,9 @@
 import React from 'react';
 import { Text, View, ScrollView, Image, Button, TouchableOpacity } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
 import estilos from './WelcomeStyle';
-
+    
 const Welcome = ({navigation}) => {
     return (
 

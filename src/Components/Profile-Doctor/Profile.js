@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, Text, ScrollView, Image, TouchableOpacity, StyleSheet } from 'react-native';
+import { Calendar } from 'react-native-calendars';
+import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
 
 const Profile = () => {
 
@@ -35,6 +36,14 @@ const Profile = () => {
                 <Text style={styles.cardFooterRightText}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </Text>
+                <View>
+                    <Calendar
+                        markedDates={{
+                            '2022-06-13': { selected: true, marked: true },
+                
+                        }}
+                    />
+                </View>
 
 
             </View>
