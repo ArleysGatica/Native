@@ -1,107 +1,68 @@
-import React, { useState, useEffect } from 'react';
-import { View, TouchableOpacity, Text, StyleSheet  } from 'react-native';
-import { Agenda, Card, Avatar, theme } from 'react-native-calendars';
+import React, { useState } from 'react';
+import { View, TouchableOpacity, Text } from 'react-native';
+import { Agenda } from 'react-native-calendars';
 
+
+const timeToString = (time) => {
+    const date = new Date(time);
+    return date.toISOString().split('T')[0];
+};
 
 const ReservationAgenda = () => {
-
     const [items, setItems] = useState({});
-    const [selected, setSelected] = useState(null);
 
-    useEffect(() => {
-        const items = {};
-        const date = new Date();
-        const day = date.getDate();
-        const month = date.getMonth();
-        const year = date.getFullYear();
-        for (let i = 0; i < 10; i++) {
-            const time = day + i;
-            const strTime = time.toString();
-            const key = `${year}-${month + 1}-${strTime.length === 1 ? '0' + strTime : strTime}`;
-            items[key] = [];
-            for (let j = 0; j < 10; j++) {
-                items[key].push({
-                    name: 'event',
-                    height: Math.random() * 100 % 2 === 0 ? 50 : 100,
-                    time: day + i + ':' + j * 10,
-                });
+    const loadItems = (day) => {
+        setTimeout(() => {
+            for (let i = -15; i < 85; i++) {
+                const time = day.timestamp + i * 24 * 60 * 60 * 1000;
+                const strTime = timeToString(time);
+                if (!items[strTime]) {
+                    items[strTime] = [];
+                    const numItems = Math.floor(Math.random() * 3 + 1);
+                    for (let j = 0; j < numItems; j++) {
+                        items[strTime].push({
+                            name: 'Item for ' + strTime + ' #' + j,
+                            height: Math.max(50, Math.floor(Math.random() * 150)),
+                        });
+                    }
+                }
+                console.log('panas');
             }
-        }
-        setItems(items);
-    }
-        , [])
-    
-    console-log($`${selected}`);
-    
-    const onDayPress = (day) => {
-        setSelected(day.dateString);
-        console.log("day pressed", day);
-    }
+            const newItems = {};
+            Object.keys(items).forEach((key) => {
+                newItems[key] = items[key];
+            });
+            setItems(newItems);
+        }, 1000);
+    };
 
     const renderItem = (item) => {
         return (
-            <View style={[styles.item, { height: item.height }]}>
-                <Text>{item.time}</Text>
+            <View >
+                <Text>{item.name}</Text>
+                
             </View>
         );
-    }
-
-    const renderEmptyDate = () => {
-        return (
-            <View style={styles.emptyDate}>
-                <Text>This is empty date!...1</Text>
-            </View>
-        );
-    }
-
-    const rowHasChanged = (r1, r2) => {
-        return r1.name !== r2.name;
-    }
-
-    const renderEmptyData = () => {
-        return (
-            <View style={styles.emptyData}>
-                <Text>This is empty data!...2</Text>
-            </View>
-        );
-    }
-
-    const headerHasChanged = (h1, h2) => {
-        return h1.date !== h2.date;
     }
 
     return (
-        <View style={styles.container}>
+        <View style={{ flex: 1 }}>
             <Agenda
                 items={items}
-                loadItemsForMonth={(month) => { console.log('trigger items loading') }}
-                selected={selected}
+                loadItemsForMonth={loadItems}
+                selected={'2017-05-16'}
                 renderItem={renderItem}
-                renderEmptyDate={renderEmptyDate}   
-                rowHasChanged={rowHasChanged}
-                
-                renderDay={(day, item) => {
+                renderEmptyDate={() => {
                     return (
-                        <View style={styles.day}>
-                            <Text>{day.dayNumber}</Text>
+                        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+                            <Text>This is empty date!</Text>
                         </View>
-                    );
+                    )
                 }}
-                renderEmptyData={renderEmptyData}
-                headerHasChanged={headerHasChanged}
-                onDayPress={onDayPress}
             />
         </View>
     );
-}
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#fff',
-        padding: 10,
-    }
-});
+};
 
 export default ReservationAgenda;
-   
+
