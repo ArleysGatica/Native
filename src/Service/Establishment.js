@@ -10,7 +10,7 @@ const Establishments = ( props ) => {
 
     useEffect(() => {
         firestore()
-            .collection('Establishments')
+            .collection('Meetings')
             .get()
             .then(querySnapshot => {
                 const data = [];
@@ -23,7 +23,7 @@ const Establishments = ( props ) => {
 
     
     return (
-        {/*
+        
         <ScrollView>
             <Text>User's</Text>
             {
@@ -38,7 +38,7 @@ const Establishments = ( props ) => {
                 })
             }
         </ScrollView>
-        */}
+        
     );
 
 }

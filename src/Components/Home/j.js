@@ -1,32 +1,55 @@
 import React, { useState } from 'react';
 import { View, TouchableOpacity, Text } from 'react-native';
 import { Agenda } from 'react-native-calendars';
-
+import Meetings from '../../Service/Meetings';
 
 const timeToString = (time) => {
     const date = new Date(time);
-    return date.toISOString().split('T')[0];
+    return date;
 };
+     
+const getTimeToString = (time) => {
+    const date = new Date(time);
+    return date;
+}
 
 const ReservationAgenda = () => {
     const [items, setItems] = useState({});
 
+    const [Data] = Meetings();
+
+    const meetingsMatch = Data.filter(item => {
+        return item.doctor === "5bDihd9Y14dfff9X1W9tomtARLH3"
+    })
+
     const loadItems = (day) => {
+        meetingsMatch && meetingsMatch.map(item => {
+            console.log(getTimeToString(item.time.seconds * 1000 ));
+            // const timeString = timeToString(item.date.seconds * 1000)
+            // items[timeString].push({
+            //     name: item.time,
+            //     height: Math.max(50, Math.floor(Math.random() * 150)),
+            // })
+            // if (!items[strTime]) {
+            //     items[timeString].push({
+            //         name: "there aren't meeting",
+            //         height: Math.max(50, Math.floor(Math.random() * 150))
+            //     })
+            // }
+        })
+
+
         setTimeout(() => {
             for (let i = -15; i < 85; i++) {
                 const time = day.timestamp + i * 24 * 60 * 60 * 1000;
                 const strTime = timeToString(time);
+                // strTime = 2022 - 08 - 09
                 if (!items[strTime]) {
-                    items[strTime] = [];
-                    const numItems = Math.floor(Math.random() * 3 + 1);
-                    for (let j = 0; j < numItems; j++) {
-                        items[strTime].push({
-                            name: 'Item for ' + strTime + ' #' + j,
-                            height: Math.max(50, Math.floor(Math.random() * 150)),
-                        });
-                    }
+                    items[strTime] = [{
+                        name: 'there are no meeting',
+                        height: Math.max(50, Math.floor(Math.random() * 150)),
+                    }];
                 }
-                console.log('panas');
             }
             const newItems = {};
             Object.keys(items).forEach((key) => {
@@ -40,7 +63,6 @@ const ReservationAgenda = () => {
         return (
             <View >
                 <Text>{item.name}</Text>
-                
             </View>
         );
     }
@@ -50,7 +72,7 @@ const ReservationAgenda = () => {
             <Agenda
                 items={items}
                 loadItemsForMonth={loadItems}
-                selected={'2017-05-16'}
+                selected={'2022-06-18'}
                 renderItem={renderItem}
                 renderEmptyDate={() => {
                     return (

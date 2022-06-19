@@ -1,56 +1,63 @@
 import React from 'react';
 import { Calendar } from 'react-native-calendars';
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
+import Doctor from '../../Service/Doctor';
 
 const Profile = () => {
 
+    const [Data] = Doctor();
+    console.log("🚀", Data)
+
+
     return (
         <View style={styles.card}>
-            <View style={styles.cardHeader}>
-                <View style={styles.cardHeaderLeft}>
-                    <Image source={require('../../Asset/Logo.png')} style={styles.cardHeaderLeftImage} />
-                    <Text style={styles.cardHeaderLeftText}>Dr. John Doe</Text>
-                </View>
-                <View style={styles.cardHeaderRight}>
-                    <Text style={styles.cardHeaderRightText}>5.0</Text>
-                    <Image source={require('../../Asset/Logo.png')} style={styles.cardHeaderRightImage} />
-                </View>
-            </View>
-            <View style={styles.cardBody}>
-                <View style={styles.cardBodyLeft}>
-                    <Text style={styles.cardBodyLeftText}>Cardiology</Text>
-                </View>
+            {
+                Data.slice(0, 1).map((item, index) => {
+                    return (
+                        <View key={index}>
+                            <View style={styles.cardHeader}>
+                                <View style={styles.cardHeaderLeft}>
+                                    <Image source={{ uri: item.image }} style={styles.cardHeaderLeftImage} />
 
-            </View>
-            <View style={styles.cardFooter}>
+                                    <Text style={styles.cardHeaderLeftText}>{item.firstName}</Text>
+                                </View>
+                                <View style={styles.cardHeaderRight}>
+                                    <Text style={styles.cardHeaderRightText}>{item.Rating}</Text>
+                                    <Image source={require('../../Asset/Logo.png')} style={styles.cardHeaderRightImage} />
+                                </View>
+                            </View>
+                            <View style={styles.cardBody}>
+                                <View style={styles.cardBodyLeft}>
+                                    <Text style={styles.cardBodyLeftText}>{item.speciality}</Text>
+                                </View>
 
-                <View style={styles.cardFooterRight}>
-                    <TouchableOpacity style={styles.cardFooterRightButton}>
-                        <Text style={styles.cardFooterRightButtonText}>
-                            Reservation
-                        </Text>
-                    </TouchableOpacity>
-                </View>
-            </View>
-            <View >
-                <Text style={styles.cardFooterRightText}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </Text>
-                <View>
-                    <Calendar
-                        markedDates={{
-                            '2022-06-13': { selected: true, marked: true },
-                
-                        }}
-                    />
-                </View>
+                            </View>
+                            <View style={styles.cardFooter}>
 
+                                <View style={styles.cardFooterRight}>
+                                    <TouchableOpacity style={styles.cardFooterRightButton}>
+                                        <Text style={styles.cardFooterRightButtonText}>
+                                            Reservation
+                                        </Text>
+                                    </TouchableOpacity>
+                                </View>
+                            </View>
+                            <View >
+                                <Text style={styles.cardFooterRightText}>
+                                    {item.biography}
+                                </Text>
+                            </View>
+                        </View>
+                    )
+                }
+                )
+            }
 
-            </View>
         </View>
-
     )
+
 }
+
 
 const styles = StyleSheet.create({
     card: {

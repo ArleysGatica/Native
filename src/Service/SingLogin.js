@@ -28,7 +28,6 @@ const SingLogin = () => {
 
     const signOut = async () => {
         try {
-
             await GoogleSignin.revokeAccess();
             await GoogleSignin.signOut();
             setUser(null);
@@ -37,9 +36,32 @@ const SingLogin = () => {
             console.log(error);
         }
     }
+ 
 
     return (
         <ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <StatusBar backgroundColor="#fff" barStyle="dark-content" />
             <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
                 <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#000' }}>Sing In</Text>

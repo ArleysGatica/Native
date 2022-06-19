@@ -1,14 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import { View, Text, ScrollView, Image } from 'react-native';
+import { useState, useEffect } from 'react';
 import firestore from '@react-native-firebase/firestore';
 
-const Doctor = () => {
-
-    const [data, setData] = useState([]);
-
+const Meetings = () => {
+    
+    const [Data, setData] = useState([]);
+        
     useEffect(() => {
         firestore()
-            .collection('Users')
+            .collection('Meetings')
             .get()
             .then(querySnapshot => {
                 const data = [];
@@ -17,11 +16,10 @@ const Doctor = () => {
                 });
                 setData(data);
             });
-    }
-        , []);
-    return [data]
+    }, []);
+    
+    return [Data]
 }
 
-
-        
-export default Doctor;
+export default Meetings;
+    
