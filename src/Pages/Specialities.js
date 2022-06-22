@@ -1,30 +1,50 @@
-import React from 'react';
-import { View, Text, ScrollView, Image } from 'react-native';
+import React, { useState, useEffect } from 'react';
+import { View, Text, ScrollView, Image, FlatList, TouchableOpacity, } from 'react-native';
+import firestore from '@react-native-firebase/firestore';
+import Doctor from '../Service/Doctor';
+import ServiceSpecialities from '../Service/Speciality';
 
-const Specialities = (props) => {
-    console.log(props);
-    
+const Specialities = () => {
+    const [DataD] = Doctor();
+    const [dataS] = ServiceSpecialities();
+
+    const COMBINATIONDOCTORSPECIALTIES = (dataS, DataD) => {
+
+        const data = [];
+       
+            DataD.forEach(DOCTOR => {
+                if (DOCTOR.speciality == 'Js3iWAzl8UQlS7mhLwFd') {
+                    data.push({
+                        Email: DOCTOR.email,
+                        id: DOCTOR.id
+                    });
+                }
+            });
+
+    }
+
+    const onClick = (item) => {
+        console.log(item);
+    }
 
     return (
         <View>
-            <Text
-                style={{ fontSize: 30, fontWeight: 'bold', alignSelf: 'center' }}
-            >Specialities</Text>
-            <ScrollView
-                style={{ flexDirection: 'row', flexWrap: 'wrap', backgroundColor: 'blue', alignSelf: 'center', borderRadius: 20, marginTop: 10 }}>
-                <Image
-                    source={require('../Asset/user.png')}
-                    style={{ width: 100, height: 100, margin: 10, alignSelf: 'center' }}
-                />
-                <Text
-                    style={{ fontSize: 20, margin: 10, fontWeight: 'bold' }}
-                >Dermatology
-                </Text>
-                <Text
-                    style={{ fontSize: 20, alignSelf: 'center', margin: 10 }}
-                >2 Doctores</Text>
-            </ScrollView>
+            <FlatList
+                numColumns={2}
+                data={COMBINATIONDOCTORSPECIALTIES(dataS, DataD)}
+                renderItem={({ item }) => (
+                    <TouchableOpacity onPress={() => onClick(item)}>
+                        <View style={{ flex: 1, flexDirection: 'row', margin: 10, backgroundColor: 'red'}}>
+                            <Image source={{ uri: item.image }} style={{ width: 100, height: 100, margin: 10 }} />
+                            <View style={{ flex: 1, flexDirection: 'column', margin: 10 }}>
+                                <Text>{item.name}</Text>
+                            </View>
+                        </View>
+                    </TouchableOpacity>
+                )}
+            />
         </View>
+            
     )
 }
 
