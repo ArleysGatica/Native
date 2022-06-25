@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, ScrollView, Button, StatusBar, TouchableOpacity, TextInput, Image } from 'react-native';
 import firestore from '@react-native-firebase/firestore';
+import Home from '../../Components/Home/Home';
 
+const Login = ({ navigation }) => {
 
-const Login = () => {
-    const [UserData, setUser] = useState([]);
+    const [UserData, setUser] = useState([]);//Aqui se guarda el pass and email
     const [data, setData] = useState([]);
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -40,7 +41,14 @@ const Login = () => {
             setLoading(false);
         }
         setUser(user);
+      
+        return [UserData]
+
     }
+
+    useEffect(() => {
+        success && navigation.navigate('Home', { user :UserData  }) ;
+    }, [success]);
 
     const valideEmail = (email) => {
         const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -89,22 +97,24 @@ const Login = () => {
                     placeholder="Password"
                     onChangeText={(text) => setPassword(text)}
                     value={password}
-                //secureTextEntry={true}
+                secureTextEntry={true}
                 />
                 <TouchableOpacity
                     style={{ width: 200, height: 40, backgroundColor: '#00bfff', borderRadius: 10, marginTop: 20, justifyContent: 'center', alignItems: 'center' }}
-                    onPress={() => signIn() ? signIn() : null}
+                    onPress={() => signIn()}
                 >
                     <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'white' }}>Login</Text>
                 </TouchableOpacity>
                 <Text style={{ fontSize: 20, fontWeight: 'bold', marginTop: 10 }}>Or</Text>
-                <TouchableOpacity>
-                    <Text style={{ fontSize: 20, fontWeight: 'bold', marginTop: 5 }}>Register</Text>
-                </TouchableOpacity>
-                <Text style={{ fontSize: 20, fontWeight: 'bold', marginTop: 20 }}>Welcome Dr{UserData.lastName}  </Text>
-                <Text style={{ fontSize: 20, fontWeight: 'bold', marginTop: 20 }}>The type is ''{UserData.type}</Text>
+                   <Text style={{ fontSize: 20, fontWeight: 'bold', marginTop: 5 }}>Register</Text>
+      
+                {loading ? <Text>Loading...</Text> : null}
+               
+                {error ? <Text>{error}</Text> : null}
+               
             </View>
         </ScrollView >
+
     );
 }
 export default Login;
