@@ -2,16 +2,23 @@ import React, { useState } from 'react';
 import { View, TouchableOpacity, Text } from 'react-native';
 import { Agenda } from 'react-native-calendars';
 import Meetings from '../../Service/Meetings';
+import moment from "moment";
 
 const timeToString = (time) => {
     const date = new Date(time);
-    return date;
-};
-     
+    return date.toISOString().split('/');
+}
+
 const getTimeToString = (time) => {
     const date = new Date(time);
     return date;
 }
+
+const timeMoment = (time) => {
+    const date = moment(time).format('LLLL');
+    return date;
+}
+
 
 const ReservationAgenda = () => {
     const [items, setItems] = useState({});
@@ -24,20 +31,10 @@ const ReservationAgenda = () => {
 
     const loadItems = (day) => {
         meetingsMatch && meetingsMatch.map(item => {
-            console.log(getTimeToString(item.time.seconds * 1000 ));
-            // const timeString = timeToString(item.date.seconds * 1000)
-            // items[timeString].push({
-            //     name: item.time,
-            //     height: Math.max(50, Math.floor(Math.random() * 150)),
-            // })
-            // if (!items[strTime]) {
-            //     items[timeString].push({
-            //         name: "there aren't meeting",
-            //         height: Math.max(50, Math.floor(Math.random() * 150))
-            //     })
-            // }
+            console.log(timeMoment(item.time.seconds * 1000));
         })
 
+        /*
 
         setTimeout(() => {
             for (let i = -15; i < 85; i++) {
@@ -58,6 +55,8 @@ const ReservationAgenda = () => {
             setItems(newItems);
         }, 1000);
     };
+    */
+    }
 
     const renderItem = (item) => {
         return (
@@ -82,9 +81,11 @@ const ReservationAgenda = () => {
                     )
                 }}
             />
+
         </View>
     );
-};
+    };
+    
 
 export default ReservationAgenda;
 
