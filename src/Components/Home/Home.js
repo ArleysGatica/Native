@@ -2,35 +2,30 @@ import React from 'react';
 import { Text, View, ScrollView, Image, TextInput, TouchableOpacity } from 'react-native';
 import estilos from './HomeStyle';
 import { HomeCard } from './HomeCard';
-import Doctor from '../../Service/Doctor';
-import ServiceSpecialities from '../../Service/Speciality';
 
 const Home = ({ route, navigation }) => {
 
-  //  console.log("user test ..... ", route.params);
     const { user } = route.params;
-    console.log("user test ..... ", user.email);
+   // console.log(`Test-IMG...: ${user.image}`);
 
-
-    // const [DataDOCTOR] = Doctor();
-    // const [DataSpecialities] = ServiceSpecialities();
-
-    return (
+    return (    
         <ScrollView>
             <View style={estilos.Header}>
                 <Image
-                    source={require('../../Asset/sidebar.png')}
+                    //source={require('../../Asset/sidebar.png')}
+                   source={{ uri: user.image }}
                     style={estilos.sidebar}
                 />
                 <Image
-                    source={require('../../Asset/user.png')}
+                  source={require('../../Asset/sidebar.png')}
+                    resizeMode='cover'
                     style={estilos.sidebar}
                 />
             </View>
             <View style={estilos.base}>
                 <Text style={estilos.Title}>Hello, Good Afternoon</Text>
                 <Text style={estilos.SubTitle}> ...</Text>
-                <Text style={estilos.name}>Auron_Play !!</Text>
+                <Text style={estilos.name}>{`${user.firstName} ${user.lastName}`}</Text>
             </View>
             <View style={estilos.Container_Search}>
                 <View style={estilos.Container_Search_inside}>
@@ -51,8 +46,7 @@ const Home = ({ route, navigation }) => {
                 <Text style={estilos.Container_Category_Info_sell}>See All</Text>
             </View>
             <TouchableOpacity onPress={() => navigation.navigate('ServiceSpecialities')}>
-               
-                {/* {DataSpecialities.slice(0, 1)?.map((item) => (
+           
                     <View style={estilos.Container_Category_items}>
                         <View style={estilos.Container_Category_Item}>
                             <Image
@@ -60,11 +54,11 @@ const Home = ({ route, navigation }) => {
                                 style={estilos.Container_Category_items_img}
                             />
                             <Text style={estilos.Container_Category_items_text}>
-                                {item.name}
+                             Holis
                             </Text>
                         </View>
                     </View>
-                ))} */}
+ 
             </TouchableOpacity>
             <View>
          

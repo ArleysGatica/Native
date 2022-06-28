@@ -9,9 +9,11 @@ const estilos = StyleSheet.create({
     },
     
     sidebar: {
-        maxWidth: 50,
-        maxHeight: 50,
-        margin: 10,    
+        margin: 10,   
+        borderRadius: 10,
+        width: 60,
+        height: 60,
+        resizeMode: 'cover',
     },
 
     base: {
