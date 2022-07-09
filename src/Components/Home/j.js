@@ -4,7 +4,7 @@ import { Agenda } from 'react-native-calendars';
 import Meetings from '../../Service/Meetings';
 import moment from "moment";
 
-const timeToString = (time) => {
+/* const timeToString = (time) => {
     const date = new Date(time);
     return date.toISOString().split('/');
 }
@@ -12,16 +12,15 @@ const timeToString = (time) => {
 const getTimeToString = (time) => {
     const date = new Date(time);
     return date;
-}
+} */
 
 const timeMoment = (time) => {
     const date = moment(time).format('LLLL');
     return date;
 }
 
-
 const ReservationAgenda = () => {
-    const [items, setItems] = useState({});
+    const [item, setItems] = useState({});
 
     const [Data] = Meetings();
 
@@ -33,30 +32,29 @@ const ReservationAgenda = () => {
         meetingsMatch && meetingsMatch.map(item => {
             console.log(timeMoment(item.time.seconds * 1000));
         })
-
-        /*
+        setItems(meetingsMatch);
 
         setTimeout(() => {
             for (let i = -15; i < 85; i++) {
                 const time = day.timestamp + i * 24 * 60 * 60 * 1000;
-                const strTime = timeToString(time);
+                const strTime = timeMoment(time);
                 // strTime = 2022 - 08 - 09
-                if (!items[strTime]) {
-                    items[strTime] = [{
+                if (!item[strTime]) {
+                    item[strTime] = [{
                         name: 'there are no meeting',
                         height: Math.max(50, Math.floor(Math.random() * 150)),
                     }];
                 }
             }
             const newItems = {};
-            Object.keys(items).forEach((key) => {
-                newItems[key] = items[key];
+            Object.keys(item).forEach((key) => {
+                newItems[key] = item[key];
             });
             setItems(newItems);
         }, 1000);
     };
-    */
-    }
+    
+    
 
     const renderItem = (item) => {
         return (
@@ -69,9 +67,9 @@ const ReservationAgenda = () => {
     return (
         <View style={{ flex: 1 }}>
             <Agenda
-                items={items}
+                Data={item}
                 loadItemsForMonth={loadItems}
-                selected={'2022-06-18'}
+                selected={'2022-07-18'}
                 renderItem={renderItem}
                 renderEmptyDate={() => {
                     return (
@@ -81,10 +79,9 @@ const ReservationAgenda = () => {
                     )
                 }}
             />
-
         </View>
     );
-    };
+}
     
 
 export default ReservationAgenda;

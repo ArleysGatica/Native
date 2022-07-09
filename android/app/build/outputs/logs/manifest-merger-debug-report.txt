@@ -10,7 +10,7 @@ MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] C:\Users\Arleys
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\dadef0a03e20c800bbfdeb9f49bec6b6\transformed\jetified-flipper-fresco-plugin-0.99.0\AndroidManifest.xml:8:1-15:12
 MERGED from [:react-native-firebase_auth] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-13:12
 MERGED from [:react-native-firebase_firestore] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\firestore\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-27:12
+MERGED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-32:12
 MERGED from [:react-native-google-signin_google-signin] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-google-signin\google-signin\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-safe-area-context] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
@@ -122,8 +122,8 @@ application
 ADDED from C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:7:5-27:19
 MERGED from C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:7:5-27:19
 MERGED from C:\Users\Arleys Gatica\Repositorio\Native\android\app\src\main\AndroidManifest.xml:7:5-27:19
-MERGED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-25:19
-MERGED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-25:19
+MERGED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-30:19
 MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\4bc4b062cf197fcded1a77cd34341dd6\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\4bc4b062cf197fcded1a77cd34341dd6\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth:21.0.5] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b90a0de07e45312d8e8eeb313033980f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:26:5-71:19
@@ -218,8 +218,8 @@ MERGED from [:react-native-firebase_auth] C:\Users\Arleys Gatica\Repositorio\Nat
 MERGED from [:react-native-firebase_auth] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-firebase_firestore] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\firestore\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-firebase_firestore] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\firestore\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
 MERGED from [:react-native-google-signin_google-signin] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-google-signin\google-signin\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-google-signin_google-signin] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-google-signin\google-signin\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
@@ -405,13 +405,13 @@ MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Arleys Gatica\.gradle\caches\
 	android:name
 		ADDED from [:react-native-firebase_auth] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-76
 meta-data#app_data_collection_default_enabled
-ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:36
+ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-13:36
 	android:value
-		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-33
+		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-33
 	android:name
-		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
+		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-63
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-18:19
+ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-23:19
 MERGED from [com.google.firebase:firebase-auth:21.0.5] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b90a0de07e45312d8e8eeb313033980f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:64:9-70:19
 MERGED from [com.google.firebase:firebase-auth:21.0.5] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b90a0de07e45312d8e8eeb313033980f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:64:9-70:19
 MERGED from [com.google.firebase:firebase-firestore:24.1.2] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\eeecdf5f10a2a6e5bf033c2859a7dc8d\transformed\jetified-firebase-firestore-24.1.2\AndroidManifest.xml:17:9-23:19
@@ -419,29 +419,29 @@ MERGED from [com.google.firebase:firebase-firestore:24.1.2] C:\Users\Arleys Gati
 MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d57a30f1344f1c0e1953cf9034ce341b\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:33:9-37:35
 MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d57a30f1344f1c0e1953cf9034ce341b\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:33:9-37:35
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:21.0.5] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b90a0de07e45312d8e8eeb313033980f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:66:13-37
+		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
 	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d57a30f1344f1c0e1953cf9034ce341b\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:37:13-32
+		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-32
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\d57a30f1344f1c0e1953cf9034ce341b\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-43
 	android:name
-		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:18-89
+		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-84
 meta-data#com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar
-ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:85
+ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-22:85
 	android:value
-		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-82
+		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-82
 	android:name
-		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-120
+		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-120
 provider#io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
-ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-24:38
+ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-29:38
 	android:authorities
-		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-86
+		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-86
 	android:exported
-		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37
 	android:initOrder
-		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-35
+		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-35
 	android:name
-		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-88
+		ADDED from [:react-native-firebase_app] C:\Users\Arleys Gatica\Repositorio\Native\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-88
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:21.0.5] C:\Users\Arleys Gatica\.gradle\caches\transforms-3\b90a0de07e45312d8e8eeb313033980f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:27:9-44:20
 	android:excludeFromRecents

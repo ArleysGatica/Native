@@ -12,37 +12,33 @@ export default function NavegationLocal() {
     return (
         <Tab.Navigator initialRouteName="Home">
             <Tab.Screen
-                name="Favorite"
+                name="Logo"
                 component={Logo}
                 options={{
-                    tabBarLabel: "Favoritos",
-                    tabBarIcon: ({ color, size }) => (
+                    tabBarIcon: () => (
                         <Image
                             source={require("../Asset/Logo.png")}
-                            style={{ width: 75, height: 75, top: -15 }}
+                            style={{ width: 75, height: 60, top: -15 }}
                         />
                     ),
                 }}
             />
-
             <Tab.Screen
                 name="Welcome"
                 component={ Welcome}
                 options={{
-                    tabBarLabel: "",
-                    tabBarIcon: () => renderPokeball(),
+                    tabBarIcon: () => renderNav(),
                 }}
             />
-
             <Tab.Screen
                 name="Login"
                 component={Login}
                 options={{
-                    tabBarLabel: "Mi cuenta",
-                    tabBarIcon: ({ color, size }) => (
+                    
+                    tabBarIcon: () => (
                         <Image
-                            source={require("../Asset/Logo.png")}
-                            style={{ width: 75, height: 75, top: -15 }}
+                            source={require("../Asset/cerrar-sesion.png")}
+                            style={{ width: 75, height: 60, top: -15 }}
                         />
                     ),
                 }}
@@ -51,11 +47,11 @@ export default function NavegationLocal() {
     );
 }
 
-function renderPokeball() {
+function renderNav() {
     return (
         <Image
-            source={require("../Asset/Logo.png")}
-            style={{ width: 75, height: 75, top: -15 }}
+            source={require("../Asset/cerrar-sesion.png")}
+            style={{ width: 60, height: 60, top: -15, backgroundColor: 'red' }}
         />
     );
 }

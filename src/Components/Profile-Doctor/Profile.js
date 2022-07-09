@@ -8,13 +8,12 @@ const Profile = () => {
     const [Data] = Doctor();
     console.log("🚀", Data)
 
-
     return (
         <View style={styles.card}>
             {
                 Data.slice(0, 1).map((item, index) => {
                     return (
-                        <View key={index}>
+                        <View >
                             <View style={styles.cardHeader}>
                                 <View style={styles.cardHeaderLeft}>
                                     <Image source={{ uri: item.image }} style={styles.cardHeaderLeftImage} />

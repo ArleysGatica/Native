@@ -10,7 +10,7 @@ const Logo = () => {
         <SafeAreaView style={estilos.contenedor}>
             <Image source={require('../../Asset/Logo.png')} />
             <TouchableOpacity onPress={() => navigation.navigate('Welcome')}>
-                <Image style={estilos.Icons} source={require('../../Asset/next-button.png')} />
+                <Image style={estilos.Icons} source={require('../../Asset/flecha.png')} />
             </TouchableOpacity>
         </SafeAreaView>
     )

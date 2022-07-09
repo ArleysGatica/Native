@@ -14,7 +14,10 @@ const Firebase = () => {
             .then(querySnapshot => {
                 const data = [];
                 querySnapshot.forEach(doc => {
-                    data.push(doc.data());
+                    data.push({
+                        id: doc.id,
+                        ...doc.data()
+                    })
                 });
                 setData(data);
             });
@@ -28,4 +31,11 @@ const Firebase = () => {
 
 }
 
-export default Firebase;
+export default Firebase;const data = [];
+                querySnapshot.forEach(doc => {
+                    data.push({
+                        id: doc.id,
+                        ...doc.data()
+                    })
+                });
+                setData(data);

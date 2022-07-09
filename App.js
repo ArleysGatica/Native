@@ -13,7 +13,7 @@ import Login from './src/Pages/Login/Login';
 import Specialities from './src/Pages/Specialities';
 import DoctorView from './src/Pages/Doctor';
 import Calendario from './src/Components/Calendar';
-import createBottomTabNavigator from './src/Components/Menu/AppMenu';
+import NavegationLocal from './src/Navegation/IndexNavegacion';
 
 const Stack = createNativeStackNavigator();
 

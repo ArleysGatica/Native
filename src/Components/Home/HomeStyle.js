@@ -2,14 +2,16 @@ import { StyleSheet } from 'react-native';
 
 const estilos = StyleSheet.create({
 
+
+
     Header: {
         flex: 1,
         flexDirection: 'row',
         justifyContent: 'space-between',
     },
-    
+
     sidebar: {
-        margin: 10,   
+        margin: 10,
         borderRadius: 10,
         width: 60,
         height: 60,
@@ -37,7 +39,7 @@ const estilos = StyleSheet.create({
     },
 
     Container_Search: {
-        flex: 4,       
+        flex: 4,
         maxWidth: 360,
         maxHeight: 200,
         backgroundColor: '#00B9E4',
@@ -85,99 +87,84 @@ const estilos = StyleSheet.create({
         textAlign: 'center',
     },
 
-    Container_Category: {
-        flex: 1,
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        left: 16,
-        maxWidth: 380,  
-        marginTop: 25,
-    },
 
-    Container_Category_Info_Cat: {
-        fontSize: 18,
-        fontWeight: 'bold',
-        color: 'black',
-    },
-
-    Container_Category_Info_sell: {
-        fontSize: 15,   
-        color: 'grey',
-    },
-
-    Container_Category_items: {
-        flex: 1,
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-    },
-
-    Container_Category_Item: {
+    Container_ESPECIALIDAD: {
         flex: 1,
         flexDirection: 'row',
         justifyContent: 'center',
+        marginTop: 20,
+        
+        marginLeft: 20,
+        marginRight: 20,
+        borderRadius: 25,
+        backgroundColor: '#00B9E4', 
+        elevation: 15,   
+    },
+
+    Container_ESPECIALIDAD_inside: {
+        justifyContent: 'center',
         alignItems: 'center',
         margin: 10,
-        maxWidth: 250,
-        backgroundColor: '#00B9E4',
-        borderRadius: 25,
     },
 
-    Container_Category_items_img: {
-        maxWidth: 50,
-        maxHeight: 50,
-        margin: 10,
-    },
-
-    Container_Category_items_text: {
+    text: {
         fontSize: 18,
         fontWeight: 'bold',
         color: 'white',
         margin: 10,
     },
 
-    Container_Perfil: {
-        flex: 1,
+    Container_IMG: {
         flexDirection: 'row',
         justifyContent: 'space-between',
-        left: 16,
-        marginTop: 10,
-        maxWidth: 380,
-        maxHeight: 100,
+        resizeMode: 'cover',
     },
 
-    Container_Perfil_img_img: {
+    ESPECIALIDAD: {
+        borderRadius: 15,
         maxWidth: 90,
-        maxHeight: 90,
+        maxHeight: 110,
     },
 
-    Container_Perfil_item: {
+    Container_STABLE: {
         flex: 1,
-        flexDirection: 'column',
+        flexDirection: 'row',
+        justifyContent: 'center',
+        marginTop: 20,
+        marginLeft: 20,
+        marginRight: 20,
+        borderRadius: 25,
+        backgroundColor: '#00B9E4',
+        elevation: 15,
+    },
+
+    Container_STABLE_inside: {
         justifyContent: 'center',
         alignItems: 'center',
-        maxWidth: 200,
+        margin: 10,
     },
 
-    Container_Perfil_info_name: {
-        fontSize: 20,
+    text: {
+        fontSize: 18,
         fontWeight: 'bold',
-        color: 'black',
+        color: 'white',
+        margin: 10, 
     },
 
-    Container_Perfil_info_speciality: {
-        fontSize: 16,
-        color: 'black',
+    Container_IMGSTABLE: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        resizeMode: 'cover',
     },
 
-    img_right: {
-        alignSelf: 'center',
+    STABLE: {
+        borderRadius: 15,
+        maxWidth: 112,
+        maxHeight: 110,
     },
 
-    Container_Perfil_PUN: {
-        maxWidth: 40,
-        maxHeight: 40,
-    }
-      
+ 
+
  });
 
 export default estilos;

@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, ScrollView, Button, StatusBar, TouchableOpacity, TextInput, Image } from 'react-native';
 import firestore from '@react-native-firebase/firestore';
-import Home from '../../Components/Home/Home';
+import SingLogin from '../../Service/SingLogin';
 
-const Login = ({ navigation }) => {
+const Login = ({ navigation, prueba }) => {
 
-    const [UserData, setUser] = useState([]);//Aqui se guarda el pass and email
+    console.log('Loading'+prueba)
+
+    const [UserData, setUser] = useState({}); //Aqui se guarda el pass and email
     const [data, setData] = useState([]);
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -32,60 +34,26 @@ const Login = ({ navigation }) => {
         setSuccess(false);
         setError('');
         setUser(null);
-        const user = data.find(user => user.email === email && user.password === password);
+        const user = data?.find(user => user.email === email && user.password === password);
         if (user) {
+            console.log("User found", user);
             setSuccess(true);
             setLoading(false);
         } else {
-            setError('Email or password is incorrect');
+            setError('❌Email or password is incorrect❌');
             setLoading(false);
         }
         setUser(user);
-      
-        return [UserData]
-
     }
 
     useEffect(() => {
-        success && navigation.navigate('Home', { user :UserData  }) ;
+        success && navigation.navigate('Home', { user: UserData });
     }, [success]);
-
-    const valideEmail = (email) => {
-        const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        return re.test(String(email).toLowerCase());
-    }
-
-    const validatePassword = (password) => {
-        const re = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
-        return re.test(String(password));
-    }
-
-    const valideLogin = () => {
-        if (email === '') {
-            setError('Email is required');
-            return false;
-        }
-        if (!valideEmail(email)) {
-            setError('Invalid Email');
-            return false;
-        }
-        if (password === '') {
-            setError('Password is required');
-            return false;
-        }
-        if (!validatePassword(password)) {
-            setError('Invalid Password');
-            return false;
-        }
-        return true;
-    }
-
+  
     return (
-
         < ScrollView >
-            <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-                <Image source={require('../../Asset/Logo.png')} style={{ width: 100, height: 100 }} />
-                <Text style={{ fontSize: 20, fontWeight: 'bold', marginTop: 20 }}>Login</Text>
+            <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', marginTop: 120 }}>
+
                 <TextInput
                     style={{ width: 200, height: 40, borderColor: 'gray', borderWidth: 1, marginTop: 20 }}
                     placeholder="Email"
@@ -97,24 +65,20 @@ const Login = ({ navigation }) => {
                     placeholder="Password"
                     onChangeText={(text) => setPassword(text)}
                     value={password}
-                secureTextEntry={true}
+                //secureTextEntry={true}
                 />
+                {loading ? <Text>Loading...</Text> : null}
+                {error ? <Text>{error}</Text> : null}
                 <TouchableOpacity
-                    style={{ width: 200, height: 40, backgroundColor: '#00bfff', borderRadius: 10, marginTop: 20, justifyContent: 'center', alignItems: 'center' }}
+                    style={{ width: 200, height: 40, backgroundColor: '#00659C', borderRadius: 10, marginTop: 20, justifyContent: 'center', alignItems: 'center' }}
                     onPress={() => signIn()}
                 >
-                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'white' }}>Login</Text>
+                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'white'}}>Login</Text>
                 </TouchableOpacity>
                 <Text style={{ fontSize: 20, fontWeight: 'bold', marginTop: 10 }}>Or</Text>
-                   <Text style={{ fontSize: 20, fontWeight: 'bold', marginTop: 5 }}>Register</Text>
-      
-                {loading ? <Text>Loading...</Text> : null}
-               
-                {error ? <Text>{error}</Text> : null}
-               
+                <SingLogin />
             </View>
         </ScrollView >
-
     );
 }
 export default Login;

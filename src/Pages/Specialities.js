@@ -1,30 +1,25 @@
-import React, { useState, useEffect } from 'react';
+/* import React, { useState, useEffect } from 'react';
 import { View, Text, ScrollView, Image, FlatList, TouchableOpacity, } from 'react-native';
 import firestore from '@react-native-firebase/firestore';
 import Doctor from '../Service/Doctor';
 import ServiceSpecialities from '../Service/Speciality';
 
 const Specialities = () => {
-    const [DataD] = Doctor();
-    const [dataS] = ServiceSpecialities();
+
 
     const COMBINATIONDOCTORSPECIALTIES = (dataS, DataD) => {
 
         const data = [];
-       
-            DataD.forEach(DOCTOR => {
-                if (DOCTOR.speciality == 'Js3iWAzl8UQlS7mhLwFd') {
-                    data.push({
-                        Email: DOCTOR.email,
-                        id: DOCTOR.id
-                    });
-                }
-            });
 
-    }
-
-    const onClick = (item) => {
-        console.log(item);
+        DataD.forEach(DOCTOR => {
+            if (DOCTOR.speciality == 'Js3iWAzl8UQlS7mhLwFd') {
+                data.push({
+                    Email: DOCTOR.email,
+                    id: DOCTOR.id
+                });
+            }
+        });
+        console.log()
     }
 
     return (
@@ -49,3 +44,4 @@ const Specialities = () => {
 }
 
 export default Specialities;
+  */

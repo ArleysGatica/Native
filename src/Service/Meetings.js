@@ -12,14 +12,17 @@ const Meetings = () => {
             .then(querySnapshot => {
                 const data = [];
                 querySnapshot.forEach(doc => {
-                    data.push(doc.data());
+                    data.push({
+                        id: doc.id,
+                        ...doc.data()
+                    })
                 });
                 setData(data);
             });
     }, []);
+
+    return [Data];
     
-    return [Data]
 }
 
 export default Meetings;
-    

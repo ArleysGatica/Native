@@ -36,10 +36,12 @@ const ServiceSpecialities = ({ navigation }) => {
                 <View
                     style={{
                         backgroundColor: '#08007C',
-                        maxwidth: '100%',
-                        maxHeight: '100%',
-                        borderRadius: 20,
+                      
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                    
                     }}>
+                    
                     <FlatList
                         numColumns={2}
                         data={DataSpecialities}
@@ -47,22 +49,29 @@ const ServiceSpecialities = ({ navigation }) => {
                             <TouchableOpacity key={item.id} onPress={() => cualquiera(item)} >
                                 <ScrollView
                                     style={{
+                                        paddingHorizontal: 10,
+                                        paddingVertical: 10,
+                                        
+                                        borderRadius: 10,
+
                                         marginHorizontal: 10,
                                         marginVertical: 10,
                                         backgroundColor: '#00B9E4',
-                                        alignSelf: 'center',
                                         borderRadius: 20,
+                                        alignSelf: 'center',
+                                        elevation: 15,                                       
+                                        margin: 10,
+                                        resizeMode: 'cover'
                                     }}>
                                     <Image
                                         id={item.name}
                                         source={{ uri: item.image }}
                                         resizeMode='contain'
-                                        style={{ width: 100, height: 100, margin: 10, alignSelf: 'center' }}
+                                        style={{ width: 100, height: 100, margin: 10, borderRadius: 20,  justifyContent: 'center' }}
                                     />
                                     <Text
                                         style={{ fontSize: 20, margin: 10, fontWeight: 'bold', alignSelf: 'center' }}
                                     >{item.name}
-
                                     </Text>
                                 </ScrollView>
                             </TouchableOpacity>

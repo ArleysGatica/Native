@@ -1,31 +1,25 @@
 import React from 'react';
 import { Text, View, ScrollView, Image, TextInput, TouchableOpacity } from 'react-native';
 import estilos from './HomeStyle';
+import SignOut from '../../Hooks/SingOut';
 import { HomeCard } from './HomeCard';
 
 const Home = ({ route, navigation }) => {
 
     const { user } = route.params;
-   // console.log(`Test-IMG...: ${user.image}`);
+    // console.log(`Test-IMG...: ${user.image}`);
 
-    return (    
+    return (
         <ScrollView>
             <View style={estilos.Header}>
                 <Image
-                    //source={require('../../Asset/sidebar.png')}
-                   source={{ uri: user.image }}
+                    source={{ uri: user.image }}
                     style={estilos.sidebar}
                 />
-                <Image
-                  source={require('../../Asset/sidebar.png')}
-                    resizeMode='cover'
-                    style={estilos.sidebar}
-                />
+                <SignOut/>
             </View>
             <View style={estilos.base}>
-                <Text style={estilos.Title}>Hello, Good Afternoon</Text>
-                <Text style={estilos.SubTitle}> ...</Text>
-                <Text style={estilos.name}>{`${user.firstName} ${user.lastName}`}</Text>
+                <Text style={estilos.name}>{`Hello, ${user.firstName} ${user.lastName}`}</Text>
             </View>
             <View style={estilos.Container_Search}>
                 <View style={estilos.Container_Search_inside}>
@@ -41,27 +35,25 @@ const Home = ({ route, navigation }) => {
                     </View>
                 </View>
             </View>
-            <View style={estilos.Container_Category}>
-                <Text style={estilos.Container_Category_Info_Cat}>Category</Text>
-                <Text style={estilos.Container_Category_Info_sell}>See All</Text>
-            </View>
+        
             <TouchableOpacity onPress={() => navigation.navigate('ServiceSpecialities')}>
-           
-                    <View style={estilos.Container_Category_items}>
-                        <View style={estilos.Container_Category_Item}>
+                <View style={estilos.Container_ESPECIALIDAD}>
+                    <View style={estilos.Container_ESPECIALIDAD_inside}>
+                        <Text style={estilos.text}>
+                        Especialidades
+                        </Text>
+                        <View style={estilos.Container_IMG}>
                             <Image
-                                source={require('../../Asset/Logo.png')}
-                                style={estilos.Container_Category_items_img}
+                                source={require('../../Asset/doctorenmedicina.png')}
+                                style={estilos.ESPECIALIDAD}
                             />
-                            <Text style={estilos.Container_Category_items_text}>
-                             Holis
-                            </Text>
                         </View>
                     </View>
- 
+                </View>
+           
             </TouchableOpacity>
             <View>
-         
+                <HomeCard />
             </View>
         </ScrollView>
     );

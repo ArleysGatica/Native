@@ -1,16 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import { Calendar } from 'react-native-calendars';
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
+import Doctor from '../Service/Doctor';
 
-const Calendario = () => {
+const Calendario = (props) => {
+
+    const [data] = Doctor()
+
+    console.log("🚀 ~ file: ", data)
 
     const [selected, setSelected] = useState('');
+    const [clickEvent, setClickEvent] = useState('');
+    const [cancelar, setCancelar] = useState('');
 
     const onDayPress = (day) => {
         setSelected(day.dateString);
     }
-
-    const [clickEvent, setClickEvent] = useState('');
 
     useEffect(() => {
         setClickEvent('');
@@ -20,15 +25,18 @@ const Calendario = () => {
         setClickEvent('Clicked');
     }
 
-    const [clickEvent2, setClickEvent2] = useState('');
-
     useEffect(() => {
-        setClickEvent2('');
+        setCancelar('');
     }, [selected]);
 
-    const onPressCLICK2 = () => {
-        setClickEvent2('Clicked');
+    const onPressCANCEL = () => {
+        setCancelar('Cancelado');
+        clickEvent === 'Clicked' ?
+            alert('Cita cancelada') :
+            alert('No hay citas para cancelar');
     }
+
+
 
     return (
         <View>
@@ -42,7 +50,7 @@ const Calendario = () => {
                 <View>
                     <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
                         <TouchableOpacity style={{ backgroundColor: '#fff', padding: 10, borderRadius: 10, borderWidth: 1, borderColor: '#000' }}
-                            onPress={onPressCLICK2}>
+                            onPress={onPressCANCEL}>
                             <Text style={{ fontSize: 18, fontWeight: 'bold' }}>
                                 Cancelar
                             </Text>
@@ -54,24 +62,26 @@ const Calendario = () => {
                             </Text>
                         </TouchableOpacity>
                     </View>
-                </View>
-            </View>
-            <View>
-                <View>
-                    {
-                        clickEvent === 'Clicked' ?
-                            <Text style={{ fontSize: 18, fontWeight: 'bold', alignSelf: 'center' }}>
-                                {` Selected day: ${selected}`}
-                            </Text>
-                            :
-                            <Text style={{ fontSize: 18, fontWeight: 'bold', alignSelf: 'center' }}>
-                                {`Nothing selected`}
-                            </Text>
-                    }
+                    <View>
+                        {
+                            clickEvent === 'Clicked' ?
+                                <Text style={{ fontSize: 18, fontWeight: 'bold', alignSelf: 'center' }}>
+                                    {` Selected day: ${selected}`}
+                                </Text>
+                                :
+                                cancelar === 'Cancelado' ? 
+                                    <Text style={{ fontSize: 18, fontWeight: 'bold', alignSelf: 'center' }}>
+                                        {` Cita cancelada`}
+                                    </Text>
+                                    :
+                                    <Text style={{ fontSize: 18, fontWeight: 'bold', alignSelf: 'center' }}>
+                                        {` `}
+                                    </Text>
+                        }
+                    </View>
                 </View>
             </View>
         </View>
     );
 }
-
 export default Calendario;
