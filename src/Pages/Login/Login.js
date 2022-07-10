@@ -3,9 +3,8 @@ import { View, Text, ScrollView, Button, StatusBar, TouchableOpacity, TextInput,
 import firestore from '@react-native-firebase/firestore';
 import SingLogin from '../../Service/SingLogin';
 
-const Login = ({ navigation, prueba }) => {
+const Login = ({ navigation, route }) => {
 
-    console.log('Loading'+prueba)
 
     const [UserData, setUser] = useState({}); //Aqui se guarda el pass and email
     const [data, setData] = useState([]);
@@ -15,6 +14,7 @@ const Login = ({ navigation, prueba }) => {
     const [loading, setLoading] = useState(false);
     const [success, setSuccess] = useState(false);
 
+
     useEffect(() => {
         firestore()
             .collection('Users')
@@ -22,7 +22,10 @@ const Login = ({ navigation, prueba }) => {
             .then(querySnapshot => {
                 const data = [];
                 querySnapshot.forEach(doc => {
-                    data.push(doc.data());
+                    data.push({
+                        id: doc.id,
+                        ...doc.data()
+                    })
                 });
                 setData(data);
             });
@@ -39,29 +42,57 @@ const Login = ({ navigation, prueba }) => {
             console.log("User found", user);
             setSuccess(true);
             setLoading(false);
+            setEmail("");
+            setPassword("");
+            setUser(user);
         } else {
             setError('❌Email or password is incorrect❌');
             setLoading(false);
         }
-        setUser(user);
     }
 
     useEffect(() => {
-        success && navigation.navigate('Home', { user: UserData });
+        if (success) {
+            if (UserData.type === 1) {
+                navigation.navigate('Home', { user: UserData });
+            } else {
+                navigation.navigate('AgendaMedico', { user: UserData });
+            }
+        }
     }, [success]);
   
     return (
-        < ScrollView >
-            <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', marginTop: 120 }}>
-
+        < ScrollView style={{ backgroundColor: '#2196F3', height: '100%',}} >
+            <View style={{  flex: 1, justifyContent: 'center', alignItems: 'center', marginTop: 120 }}>
+                 <Text style={{color: 'white', fontSize: 30, fontWeight: 'bold', marginBottom: 25}} > MR. DOCTOR</Text>   
                 <TextInput
-                    style={{ width: 200, height: 40, borderColor: 'gray', borderWidth: 1, marginTop: 20 }}
+                    style={{
+                        width: '80%',
+                        height: '25%',
+                        backgroundColor: '#dcdcdc',
+                        borderRadius: 10,
+                        marginBottom: 15,
+                        padding: 15,
+                        marginHorizontal: 20,
+                        fontSize: 20,
+                        fontWeight: 'bold',
+                    }}
                     placeholder="Email"
                     onChangeText={(text) => setEmail(text)}
                     value={email}
                 />
                 <TextInput
-                    style={{ width: 200, height: 40, borderColor: 'gray', borderWidth: 1, marginTop: 20 }}
+                    style={{
+                        width: '80%',
+                        height: '25%',
+                        backgroundColor: '#dcdcdc',
+                        borderRadius: 10,
+                        marginBottom: 15,
+                        padding: 15,
+                        marginHorizontal: 20,
+                        fontSize: 20,
+                        fontWeight: 'bold',
+                    }}
                     placeholder="Password"
                     onChangeText={(text) => setPassword(text)}
                     value={password}
@@ -70,13 +101,21 @@ const Login = ({ navigation, prueba }) => {
                 {loading ? <Text>Loading...</Text> : null}
                 {error ? <Text>{error}</Text> : null}
                 <TouchableOpacity
-                    style={{ width: 200, height: 40, backgroundColor: '#00659C', borderRadius: 10, marginTop: 20, justifyContent: 'center', alignItems: 'center' }}
+                    style={{
+                        width: '60%',
+                        height: '25%',
+                        alignSelf: 'center',
+                        backgroundColor: '#FFFFFF',
+                        borderRadius: 10,
+                        marginTop: 20,
+                        padding: 10,
+                        marginHorizontal: 15 }}
                     onPress={() => signIn()}
                 >
-                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'white'}}>Login</Text>
+                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#2196F3', textAlign: 'center' }}>INICIAR SESIÓN</Text>
                 </TouchableOpacity>
-                <Text style={{ fontSize: 20, fontWeight: 'bold', marginTop: 10 }}>Or</Text>
-                <SingLogin />
+                {/*<Text style={{ fontSize: 20, fontWeight: 'bold', marginTop: 10 }}>Or</Text>
+                <SingLogin />*/}
             </View>
         </ScrollView >
     );

@@ -6,14 +6,17 @@ import {
 } from 'react-native';
 import estilos from './HomeStyle';
 
-export const HomeCard = () => {
+export const HomeCard = ({ navigation, user }) => {
+    
+    console.log("USER HOMECARD ", user);
+
     return (
         <ScrollView>
-            <TouchableOpacity onPress={() => navigation.navigate('ServiceSpecialities')}>
+            <TouchableOpacity onPress={() => navigation.navigate('Establishments', { user: user})}>
                 <View style={estilos.Container_STABLE}>
                     <View style={estilos.Container_STABLE_inside}>
                         <Text style={estilos.text}>
-                            EsTablecimiento
+                            ESTABLECIMIENTOS
                         </Text>
                         <View style={estilos.Container_IMGSTABLE}>
                             <Image

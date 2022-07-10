@@ -1,40 +1,41 @@
 import React from 'react';
 import { Calendar } from 'react-native-calendars';
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
-import Doctor from '../../Service/Doctor';
 
-const Profile = () => {
+const Profile = ({route, navigation}) => {
 
-    const [Data] = Doctor();
-    console.log("🚀", Data)
+    const { dataDoctor, user, speciality } = route.params;
 
+    console.log("LOS DATOS LLEGARON A PROFILE: ", "DOCTOR", dataDoctor, "USER", user, "SPECIALITY", speciality);
+
+    const cualquiera = () => {
+        navigation.navigate('Meetings', { dataDoctor: dataDoctor, user: user, speciality: speciality });
+    }
+    
     return (
         <View style={styles.card}>
-            {
-                Data.slice(0, 1).map((item, index) => {
-                    return (
                         <View >
-                            <View style={styles.cardHeader}>
+                <View style={styles.cardHeader}>
+                                <Image source={{ uri: dataDoctor.image }} style={styles.cardHeaderLeftImage} />
                                 <View style={styles.cardHeaderLeft}>
-                                    <Image source={{ uri: item.image }} style={styles.cardHeaderLeftImage} />
-
-                                    <Text style={styles.cardHeaderLeftText}>{item.firstName}</Text>
+                                    <Text style={styles.cardHeaderLeftText}>{(dataDoctor.firstName).toUpperCase()}</Text>
+                        <Text style={styles.cardHeaderLeftText}> {(dataDoctor.lastName).toUpperCase()}</Text>
                                 </View>
                                 <View style={styles.cardHeaderRight}>
-                                    <Text style={styles.cardHeaderRightText}>{item.Rating}</Text>
-                                    <Image source={require('../../Asset/Logo.png')} style={styles.cardHeaderRightImage} />
+                                    <Text style={styles.cardHeaderRightText}>{dataDoctor.Rating}</Text>
+                                    <Image source={require('../../Asset/star.png')} style={styles.cardHeaderRightImage} />
                                 </View>
                             </View>
                             <View style={styles.cardBody}>
                                 <View style={styles.cardBodyLeft}>
-                                    <Text style={styles.cardBodyLeftText}>{item.speciality}</Text>
+                                    <Text style={styles.cardBodyLeftText}>{speciality.name}</Text>
                                 </View>
 
                             </View>
                             <View style={styles.cardFooter}>
 
                                 <View style={styles.cardFooterRight}>
-                                    <TouchableOpacity style={styles.cardFooterRightButton}>
+                                    <TouchableOpacity style={styles.cardFooterRightButton} onPress={() => cualquiera()}>
                                         <Text style={styles.cardFooterRightButtonText}>
                                             Reservation
                                         </Text>
@@ -43,15 +44,11 @@ const Profile = () => {
                             </View>
                             <View >
                                 <Text style={styles.cardFooterRightText}>
-                                    {item.biography}
+                                    {dataDoctor.biography}
                                 </Text>
                             </View>
                         </View>
-                    )
-                }
-                )
-            }
-
+                    
         </View>
     )
 
@@ -60,7 +57,7 @@ const Profile = () => {
 
 const styles = StyleSheet.create({
     card: {
-        height: '40%',
+        height: '80%',
         backgroundColor: '#fff',
         borderRadius: 10,
         shadowColor: '#000',
@@ -74,20 +71,31 @@ const styles = StyleSheet.create({
         marginRight: 10,
         padding: 10,
     },
+    cardFooterRightText: {
+        marginTop: 30,
+        fontSize: 20,
+        fontWeight: '400'
+
+    },
     cardHeader: {
-        flexDirection: 'row',
-        justifyContent: 'space-between',
         alignItems: 'center',
+        flexDirection: 'column',
+        justifyContent: 'space-around',
     },
     cardHeaderLeft: {
         flexDirection: 'row',
         alignItems: 'center',
+        marginBottom: 20,
+        fontWeight: 'bold',
+        fontSize: 30,
+        color: 'black',
     },
     cardHeaderLeftImage: {
-        width: 85,
-        height: 85,
+        width: 120,
+        height: 120,
         borderRadius: 15,
         marginRight: 10,
+        marginBottom: 20,
     },
     cardHeaderLeftText: {
         fontSize: 18,
@@ -98,13 +106,13 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     cardHeaderRightText: {
-        fontSize: 18,
+        fontSize: 25,
         fontWeight: 'bold',
         marginRight: 10,
     },
     cardHeaderRightImage: {
-        width: 20,
-        height: 20,
+        width: 50,
+        height: 50,
         marginRight: 10,
     },
     cardBody: {
@@ -120,7 +128,8 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     cardBodyLeftText: {
-        fontSize: 18,
+        fontSize: 20,
+        color: 'black',
         fontWeight: 'bold',
         marginRight: 10,
     },
@@ -142,7 +151,8 @@ const styles = StyleSheet.create({
         backgroundColor: '#00a8ff',
         borderRadius: 10,
         padding: 10,
-        marginRight: 10,
+        marginLeft: -10,
+        //marginRight: 10,
     },
     cardFooterRightButtonText: {
         color: '#fff',
