@@ -7,14 +7,14 @@ const estilos = StyleSheet.create({
     Header: {
         flex: 1,
         flexDirection: 'row',
-        justifyContent: 'space-between',
+        justifyContent: 'center',
     },
 
     sidebar: {
         margin: 10,
         borderRadius: 10,
-        width: 60,
-        height: 60,
+        width: 70,
+        height: 70,
         resizeMode: 'cover',
     },
 
@@ -32,15 +32,16 @@ const estilos = StyleSheet.create({
     },
 
     name: {
-        fontSize: 30,
+        fontSize: 25,
         fontWeight: 'bold',
         textAlign: 'center',
         marginTop: 20,
+        color: 'black',
     },
 
     Container_Search: {
         flex: 4,
-        maxWidth: 360,
+        maxWidth: 350,
         maxHeight: 200,
         backgroundColor: '#00B9E4',
         marginTop: 20,

@@ -6,14 +6,13 @@ import Welcome from './src/Components/Welcome/Welcome';
 import Home from './src/Components/Home/Home';
 import ServiceSpecialities from './src/Service/Speciality';
 import Profile from './src/Components/Profile-Doctor/Profile';
-import ReservationAgenda from './src/Components/Home/j';
-import SingLogin from './src/Service/SingLogin';
-import Doctor from './src/Service/Doctor';
+import {Doctors} from './src/Service/Doctor-DT';
 import Login from './src/Pages/Login/Login';
-import Specialities from './src/Pages/Specialities';
-import DoctorView from './src/Pages/Doctor';
-import Calendario from './src/Components/Calendar';
-import NavegationLocal from './src/Navegation/IndexNavegacion';
+import { Meetings } from "./src/Pages/Meetings"
+import { Establishments } from './src/Service/Establishment';
+import { DoctorsEM } from './src/Service/Doctor-EM';
+import { Agenda } from './src/Service/Agenda';
+import {AgendaMedico} from './src/Service/AgendaMedico'
 
 const Stack = createNativeStackNavigator();
 
@@ -26,7 +25,13 @@ function LogoStack() {
             <Stack.Screen options={{ headerShown: false }} name="Login" component={Login} />
             <Stack.Screen options={{ headerShown: false }} name="Home" component={Home} />
             <Stack.Screen options={{ headerShown: false }} name="ServiceSpecialities" component={ServiceSpecialities} />
-            <Stack.Screen options={{ headerShown: false }}name="Doctor" component={Doctor}  /> 
+            <Stack.Screen options={{ headerShown: false }} name="Establishments" component={Establishments} />
+            <Stack.Screen options={{ headerShown: false }} name="Doctors" component={Doctors} /> 
+            <Stack.Screen options={{ headerShown: false }} name="DoctorsEM" component={DoctorsEM} /> 
+            <Stack.Screen options={{ headerShown: false }} name="Profile" component={Profile} />
+            <Stack.Screen options={{ headerShown: false }} name="Meetings" component={Meetings} />
+            <Stack.Screen options={{ headerShown: false }} name="Agenda" component={Agenda} />
+            <Stack.Screen options={{ headerShown: false }} name="AgendaMedico" component={AgendaMedico} />
         </Stack.Navigator>
     )
 }

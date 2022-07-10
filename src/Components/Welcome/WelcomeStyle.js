@@ -6,8 +6,8 @@ const estilos = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#fff',
         paddingTop: 50,
+        height: '100%',
     },
 
     Title: {

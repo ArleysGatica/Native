@@ -5,13 +5,13 @@ import estilos from './WelcomeStyle';
 const Welcome = ({navigation}) => {
     return (
 
-        <ScrollView>
+        <ScrollView style={{ backgroundColor: '#FFFFFF', height: '100%' }} >
             <View style={estilos.Container}>
                 <Text style={estilos.Title}>
-                    Welcome to{"\n"}
-                    Mr Doctor team
+                    Bienvenido a{"\n"}
+                    Mr Doctor
                 </Text>
-                <Text style={estilos.Caption}>The best team for your next health project and reservations</Text>
+                <Text style={estilos.Caption}>Aplicación móvil para la gestión de citas médicas</Text>
                 <Image source={require('../../Asset/Welcome.png')}
                     style={estilos.Logo}
                 />
