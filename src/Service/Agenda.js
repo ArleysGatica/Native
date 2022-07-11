@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { Text, View, ScrollView, Image, FlatList, TouchableOpacity } from 'react-native';
 import firestore from '@react-native-firebase/firestore';
 
-export const Agenda = ({ route, navigation }) => {
+export const Agenda = ({ route }) => {
 
     const { user } = route.params;
 
