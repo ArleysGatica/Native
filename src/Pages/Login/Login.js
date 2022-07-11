@@ -3,7 +3,7 @@ import { View, Text, ScrollView, Button, StatusBar, TouchableOpacity, TextInput,
 import firestore from '@react-native-firebase/firestore';
 import SingLogin from '../../Service/SingLogin';
 
-const Login = ({ navigation, route }) => {
+const Login = ({ navigation }) => {
 
 
     const [UserData, setUser] = useState({}); //Aqui se guarda el pass and email
@@ -96,7 +96,7 @@ const Login = ({ navigation, route }) => {
                     placeholder="Password"
                     onChangeText={(text) => setPassword(text)}
                     value={password}
-                //secureTextEntry={true}
+                    secureTextEntry={true}
                 />
                 {loading ? <Text>Loading...</Text> : null}
                 {error ? <Text>{error}</Text> : null}
